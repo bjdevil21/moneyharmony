@@ -6,6 +6,12 @@ files/
 sites/*/files
 sites/*/private
 
+*.zip
+*.tar
+*.tar.gz
+*.sql
+*.gz
+
 # eclipse files
 .buildpath
 .project
