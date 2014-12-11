@@ -34,3 +34,10 @@ xmlrpc.php
 /profiles
 /scripts
 /themes
+
+# eclipse files
+.buildpath
+.project
+.settings/
+# PHPStorm
+.idea
