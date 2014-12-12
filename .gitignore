@@ -6,7 +6,7 @@ files/
 sites/*/files
 sites/*/private
 
-*.zip
+#*.zip
 *.tar
 *.tar.gz
 *.sql
