@@ -144,7 +144,10 @@
       </div> <!-- /.section, /#top-content -->
 
       <div id="content">
-        <div class="column <?php $no_panels ? print 'container' : ''; ?>">
+        <div class="column <?php 
+echo 'container'; 
+// $no_panels ? print 'container' : ''; 
+?>">
           <?php print render($page['content']); ?>
         </div>
       </div> <!-- /.section, /#content -->
