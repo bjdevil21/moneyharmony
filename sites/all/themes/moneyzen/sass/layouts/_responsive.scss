@@ -221,7 +221,7 @@ $zen-auto-include-item-base: false;
       line-height: 1em;
     }
   }
-  #main {
+  .no-sidebars #main {
     background: #fff url("/sites/all/themes/moneyzen/images/bkBody.png") repeat-y top left;
   }
 }

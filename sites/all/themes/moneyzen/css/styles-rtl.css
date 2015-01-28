@@ -252,7 +252,7 @@ ul {
   }
 
   /* line 224, ../sass/layouts/_responsive.scss */
-  #main {
+  .no-sidebars #main {
     background: #fff url("/sites/all/themes/moneyzen/images/bkBody.png") repeat-y top left;
   }
 }
