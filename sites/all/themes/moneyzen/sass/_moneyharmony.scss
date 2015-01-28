@@ -17,6 +17,10 @@ body {
       right: 0px;
     }
     height: inherit !important;
+    // remove line-height issues -
+    #tb-megamenu-main-menu {
+      line-height: 1em;
+    }
   }
   #content {
     background-color: #fff;
@@ -30,8 +34,7 @@ body {
 
 #header {
   .block {
-    margin-bottom: 0px;
-    margin-top: $base-font-size;
+    margin: $base-font-size 0px 0px 30px;
   }
 }
 
