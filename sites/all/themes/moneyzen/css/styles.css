@@ -1733,23 +1733,27 @@ body #navigation {
 body #navigation #tb-megamenu-main-menu {
   line-height: 1em;
 }
-/* line 29, ../sass/_moneyharmony.scss */
+/* line 25, ../sass/_moneyharmony.scss */
+body #main {
+  background-color: #fff;
+}
+/* line 31, ../sass/_moneyharmony.scss */
 body #footer {
   background-color: #6F737A;
   color: #fff;
   text-align: center;
 }
 
-/* line 37, ../sass/_moneyharmony.scss */
+/* line 39, ../sass/_moneyharmony.scss */
 #header .block {
   margin: 16px 0px 0px 30px;
 }
 
-/* line 44, ../sass/_moneyharmony.scss */
+/* line 46, ../sass/_moneyharmony.scss */
 #content > h1#page-title {
   display: none;
 }
-/* line 48, ../sass/_moneyharmony.scss */
+/* line 50, ../sass/_moneyharmony.scss */
 #content div.reviews {
   background-color: #E7EBF1;
   border-left: 1px dashed #004069;
@@ -1758,7 +1762,7 @@ body #footer {
   margin: 1em 1.5em 1em 0.7em;
   padding: 15px;
 }
-/* line 56, ../sass/_moneyharmony.scss */
+/* line 58, ../sass/_moneyharmony.scss */
 #content img.bookimage {
   border: 3px inset #004069;
   display: inline;
