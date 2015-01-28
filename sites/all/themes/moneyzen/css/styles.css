@@ -858,6 +858,17 @@ table {
   .no-sidebars #main {
     background: #fff url("/sites/all/themes/moneyzen/images/bkBody.png") repeat-y top left;
   }
+
+  /* line 219, ../sass/layouts/_responsive.scss */
+  #navigation {
+    padding-left: 0px;
+    padding-right: 0px;
+    height: inherit !important;
+  }
+  /* line 226, ../sass/layouts/_responsive.scss */
+  #navigation #tb-megamenu-main-menu {
+    line-height: 1em;
+  }
 }
 /* Component (SMACSS module) rules */
 /**
@@ -1723,37 +1734,27 @@ body #header {
 body #header .top-link-home {
   vertical-align: middle;
 }
-/* line 14, ../sass/_moneyharmony.scss */
-body #navigation {
-  padding-left: 0px;
-  padding-right: 0px;
-  height: inherit !important;
-}
-/* line 21, ../sass/_moneyharmony.scss */
-body #navigation #tb-megamenu-main-menu {
-  line-height: 1em;
-}
-/* line 25, ../sass/_moneyharmony.scss */
+/* line 15, ../sass/_moneyharmony.scss */
 body #main {
   background-color: #fff;
 }
-/* line 31, ../sass/_moneyharmony.scss */
+/* line 21, ../sass/_moneyharmony.scss */
 body #footer {
   background-color: #6F737A;
   color: #fff;
   text-align: center;
 }
 
-/* line 39, ../sass/_moneyharmony.scss */
+/* line 29, ../sass/_moneyharmony.scss */
 #header .block {
   margin: 16px 0px 0px 30px;
 }
 
-/* line 46, ../sass/_moneyharmony.scss */
+/* line 36, ../sass/_moneyharmony.scss */
 #content > h1#page-title {
   display: none;
 }
-/* line 50, ../sass/_moneyharmony.scss */
+/* line 40, ../sass/_moneyharmony.scss */
 #content div.reviews {
   background-color: #E7EBF1;
   border-left: 1px dashed #004069;
@@ -1762,7 +1763,7 @@ body #footer {
   margin: 1em 1.5em 1em 0.7em;
   padding: 15px;
 }
-/* line 58, ../sass/_moneyharmony.scss */
+/* line 48, ../sass/_moneyharmony.scss */
 #content img.bookimage {
   border: 3px inset #004069;
   display: inline;

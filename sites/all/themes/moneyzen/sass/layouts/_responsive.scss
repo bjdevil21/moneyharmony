@@ -209,10 +209,22 @@ $zen-auto-include-item-base: false;
     }
   }
 
-  // custom
+  // custom - add background for desktop layout
   .no-sidebars {
     #main {
       background: #fff url("/sites/all/themes/moneyzen/images/bkBody.png") repeat-y top left;
+    }
+  }
+  // custom - TB Mega Menu edits
+  #navigation {
+    padding: {
+      left: 0px;
+      right: 0px;
+    }
+    height: inherit !important;
+    // remove line-height issues -
+    #tb-megamenu-main-menu {
+      line-height: 1em;
     }
   }
 }
