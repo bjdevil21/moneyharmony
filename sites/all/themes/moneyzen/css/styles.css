@@ -1742,14 +1742,10 @@ body #footer {
 }
 
 /* line 40, ../sass/_moneyharmony.scss */
-#content > h1.page-title {
+#content > h1#page-title {
   display: none;
 }
-/* line 43, ../sass/_moneyharmony.scss */
-#content h1.pane-title {
-  display: none;
-}
-/* line 47, ../sass/_moneyharmony.scss */
+/* line 44, ../sass/_moneyharmony.scss */
 #content div.reviews {
   background-color: #E7EBF1;
   border-left: 1px dashed #004069;
@@ -1758,7 +1754,7 @@ body #footer {
   margin: 1em 1.5em 1em 0.7em;
   padding: 15px;
 }
-/* line 55, ../sass/_moneyharmony.scss */
+/* line 52, ../sass/_moneyharmony.scss */
 #content img.bookimage {
   border: 3px inset #004069;
   display: inline;

@@ -37,10 +37,7 @@ body {
 
 
 #content {
-  & > h1.page-title {
-    display: none;
-  }
-  h1.pane-title {
+  & > h1#page-title {
     display: none;
   }
   // Books page
