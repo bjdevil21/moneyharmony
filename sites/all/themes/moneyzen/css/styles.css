@@ -854,18 +854,13 @@ table {
     margin-right: -500%;
   }
 
-  /* line 214, ../sass/layouts/_responsive.scss */
-  .no-sidebars #main {
-    background: #fff url("/sites/all/themes/moneyzen/images/bkBody.png") repeat-y top left;
-  }
-
-  /* line 219, ../sass/layouts/_responsive.scss */
+  /* line 213, ../sass/layouts/_responsive.scss */
   #navigation {
     padding-left: 0px;
     padding-right: 0px;
     height: inherit !important;
   }
-  /* line 226, ../sass/layouts/_responsive.scss */
+  /* line 220, ../sass/layouts/_responsive.scss */
   #navigation #tb-megamenu-main-menu {
     line-height: 1em;
   }
@@ -1726,35 +1721,38 @@ body {
 }
 /* line 6, ../sass/_moneyharmony.scss */
 body #header {
-  background-color: #33729B;
   background: #33729B url("/sites/all/themes/moneyzen/images/topBkgd.jpg") repeat-x top left;
   height: 62px;
 }
-/* line 10, ../sass/_moneyharmony.scss */
+/* line 9, ../sass/_moneyharmony.scss */
 body #header .top-link-home {
   vertical-align: middle;
 }
-/* line 15, ../sass/_moneyharmony.scss */
+/* line 14, ../sass/_moneyharmony.scss */
 body #main {
   background-color: #fff;
 }
-/* line 21, ../sass/_moneyharmony.scss */
+/* line 18, ../sass/_moneyharmony.scss */
+body #main {
+  background: #fff url("/sites/all/themes/moneyzen/images/bkBody.png") repeat-y top left;
+}
+/* line 24, ../sass/_moneyharmony.scss */
 body #footer {
   background-color: #6F737A;
   color: #fff;
   text-align: center;
 }
 
-/* line 29, ../sass/_moneyharmony.scss */
+/* line 32, ../sass/_moneyharmony.scss */
 #header .block {
   margin: 16px 0px 0px 30px;
 }
 
-/* line 36, ../sass/_moneyharmony.scss */
+/* line 39, ../sass/_moneyharmony.scss */
 #content > h1#page-title {
   display: none;
 }
-/* line 40, ../sass/_moneyharmony.scss */
+/* line 43, ../sass/_moneyharmony.scss */
 #content div.reviews {
   background-color: #E7EBF1;
   border-left: 1px dashed #004069;
@@ -1763,7 +1761,7 @@ body #footer {
   margin: 1em 1.5em 1em 0.7em;
   padding: 15px;
 }
-/* line 48, ../sass/_moneyharmony.scss */
+/* line 51, ../sass/_moneyharmony.scss */
 #content img.bookimage {
   border: 3px inset #004069;
   display: inline;

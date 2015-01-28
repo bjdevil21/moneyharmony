@@ -240,18 +240,13 @@ ul {
     margin-left: -500%;
   }
 
-  /* line 214, ../sass/layouts/_responsive.scss */
-  .no-sidebars #main {
-    background: #fff url("/sites/all/themes/moneyzen/images/bkBody.png") repeat-y top left;
-  }
-
-  /* line 219, ../sass/layouts/_responsive.scss */
+  /* line 213, ../sass/layouts/_responsive.scss */
   #navigation {
     padding-left: 0px;
     padding-right: 0px;
     height: inherit !important;
   }
-  /* line 226, ../sass/layouts/_responsive.scss */
+  /* line 220, ../sass/layouts/_responsive.scss */
   #navigation #tb-megamenu-main-menu {
     line-height: 1em;
   }

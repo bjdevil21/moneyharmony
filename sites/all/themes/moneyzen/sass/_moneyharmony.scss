@@ -4,7 +4,6 @@
 body {
   background-color: $bluegray;
   #header {
-    background-color: $darkblue;
     background: $darkblue url("/sites/all/themes/moneyzen/images/topBkgd.jpg") repeat-x top left;
     height: 62px; // for image
     .top-link-home {
@@ -15,6 +14,10 @@ body {
   #main {
     background-color: #fff;
   }
+  // custom
+    #main {
+      background: #fff url("/sites/all/themes/moneyzen/images/bkBody.png") repeat-y top left;
+    }
   #content {
 
   }
