@@ -57,16 +57,21 @@ body {
 // front page
 .front {
   .hewston-flipped .container-fluid {
-    & > .row:nth-child(2) {
-      .col-md-4 {
-        &.radix-layouts-column1 {
-          background-color: $darkblue;
-        }
-        &.radix-layouts-column2 {
-          background-color: $lightblue;
-        }
-        &.radix-layouts-column3 {
-          background-color: $steelblue;
+    & > .row {
+      // overrides Radix theme
+      margin-left: -10px;
+      margin-right: -10px;
+      &:nth-child(2) {
+        .col-md-4 {
+          &.radix-layouts-column1 {
+            background-color: $darkblue;
+          }
+          &.radix-layouts-column2 {
+            background-color: $lightblue;
+          }
+          &.radix-layouts-column3 {
+            background-color: $steelblue;
+          }
         }
       }
     }
