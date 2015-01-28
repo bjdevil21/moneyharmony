@@ -5,7 +5,18 @@ body {
   background-color: $bluegray;
   #header {
     background-color: $darkblue;
-    background: $darkblue url("/sites/all/themes/moneyzen/images/topBkgd.jpg") repeat-y top left;
+    background: $darkblue url("/sites/all/themes/moneyzen/images/topBkgd.jpg") repeat-x top left;
+    height: 62px; // for image
+    .top-link-home {
+      vertical-align: middle;
+    }
+  }
+  #navigation {
+    padding: {
+      left: 0px;
+      right: 0px;
+    }
+    height: inherit !important;
   }
   #content {
     background-color: #fff;

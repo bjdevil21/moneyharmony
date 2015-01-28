@@ -1711,13 +1711,24 @@ body {
 /* line 6, ../sass/_moneyharmony.scss */
 body #header {
   background-color: #33729B;
-  background: #33729B url("/sites/all/themes/moneyzen/images/topBkgd.jpg") repeat-y top left;
+  background: #33729B url("/sites/all/themes/moneyzen/images/topBkgd.jpg") repeat-x top left;
+  height: 62px;
 }
 /* line 10, ../sass/_moneyharmony.scss */
+body #header .top-link-home {
+  vertical-align: middle;
+}
+/* line 14, ../sass/_moneyharmony.scss */
+body #navigation {
+  padding-left: 0px;
+  padding-right: 0px;
+  height: inherit !important;
+}
+/* line 21, ../sass/_moneyharmony.scss */
 body #content {
   background-color: #fff;
 }
-/* line 13, ../sass/_moneyharmony.scss */
+/* line 24, ../sass/_moneyharmony.scss */
 body #footer {
   background-color: #6F737A;
   color: #fff;
