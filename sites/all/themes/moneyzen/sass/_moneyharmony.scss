@@ -64,7 +64,15 @@ body {
       &:nth-child(2) {
         .col-md-4 {
           &.radix-layouts-column1 {
+            color: #fff;
             background-color: $darkblue;
+            ul {
+              padding-left: 0px;
+              li {
+                clear: left;
+                list-style-type: none;
+              }
+            }
           }
           &.radix-layouts-column2 {
             background-color: $lightblue;
