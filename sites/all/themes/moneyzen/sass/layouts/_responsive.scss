@@ -208,4 +208,11 @@ $zen-auto-include-item-base: false;
       @include zen-grid-item(1, 5);
     }
   }
+
+  // custom
+  .no-sidebars {
+    #main {
+      background: #fff url("/sites/all/themes/moneyzen/images/bkBody.png") repeat-y top left;
+    }
+  }
 }

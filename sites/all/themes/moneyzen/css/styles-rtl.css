@@ -239,6 +239,11 @@ ul {
     margin-right: 400%;
     margin-left: -500%;
   }
+
+  /* line 214, ../sass/layouts/_responsive.scss */
+  .no-sidebars #main {
+    background: #fff url("/sites/all/themes/moneyzen/images/bkBody.png") repeat-y top left;
+  }
 }
 /* Component (SMACSS module) rules */
 /**
