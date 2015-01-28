@@ -1,7 +1,18 @@
 /* Custom SCSS rules */
 
+// colors
 body {
   background-color: $bluegray;
-  color: yellow;
+  #header {
+    background-color: $darkblue;
+    background: $darkblue url("/sites/all/themes/moneyzen/images/topBkgd.jpg") repeat-y top left;
+  }
+  #content {
+    background-color: #fff;
+  }
+  #footer {
+    background-color: $footergray;
+    color: #fff;
+    text-align: center;
+  }
 }
-
