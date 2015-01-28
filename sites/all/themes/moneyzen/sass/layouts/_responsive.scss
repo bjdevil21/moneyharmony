@@ -195,6 +195,7 @@ $zen-auto-include-item-base: false;
     /* Span 3 columns, starting in 2nd column from left. */
     #content {
       @include zen-grid-item(3, 2);
+      background-color: orange;
     }
 
     /* Span 1 column, starting in 1st column from left. */

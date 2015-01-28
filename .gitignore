@@ -12,3 +12,6 @@ sites/*/private
 
 # PHPStorm
 .idea
+
+# SASS cache
+*.sass-cach*

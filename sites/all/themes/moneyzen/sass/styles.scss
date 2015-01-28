@@ -18,6 +18,10 @@
 /* Component (SMACSS module) rules */
 @import "components/misc";
 // Optionally, add your own components here.
+
+// Custom MH SCSS
+@import "moneyharmony";
+
 @import "print";
 
 /* SMACSS theme rules */
