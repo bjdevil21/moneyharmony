@@ -3551,6 +3551,7 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003224}}
   .no-sidebars #main {
     background: #fff url("/sites/all/themes/moneyzen/images/bkBody.png") repeat-y top left;
+    background-size: 25%;
   }
 }
 /* Component (SMACSS module) rules */
