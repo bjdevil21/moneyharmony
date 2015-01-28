@@ -31,6 +31,7 @@ body {
 
 
 #content {
+  // hide title
   & > h1#page-title {
     display: none;
   }
@@ -50,5 +51,24 @@ body {
     margin: -1px 1em 1em -1px;
     width: 100px;
     height: 150px;
+  }
+}
+
+// front page
+.front {
+  .hewston-flipped .container-fluid {
+    & > .row:nth-child(2) {
+      .col-md-4 {
+        &.radix-layouts-column1 {
+          background-color: $darkblue;
+        }
+        &.radix-layouts-column2 {
+          background-color: $lightblue;
+        }
+        &.radix-layouts-column3 {
+          background-color: $steelblue;
+        }
+      }
+    }
   }
 }

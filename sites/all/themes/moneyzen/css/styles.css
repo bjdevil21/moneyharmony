@@ -4433,11 +4433,11 @@ body #footer {
   margin: 16px 0px 0px 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\0000335}}
 #content > h1#page-title {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\0000339}}
 #content div.reviews {
   background-color: #E7EBF1;
   border-left: 1px dashed #004069;
@@ -4446,7 +4446,7 @@ body #footer {
   margin: 1em 1.5em 1em 0.7em;
   padding: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\0000347}}
 #content img.bookimage {
   border: 3px inset #004069;
   display: inline;
@@ -4454,6 +4454,19 @@ body #footer {
   margin: -1px 1em 1em -1px;
   width: 100px;
   height: 150px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\0000362}}
+.front .hewston-flipped .container-fluid > .row:nth-child(2) .col-md-4.radix-layouts-column1 {
+  background-color: #33729B;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\0000365}}
+.front .hewston-flipped .container-fluid > .row:nth-child(2) .col-md-4.radix-layouts-column2 {
+  background-color: #E7EBF1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\0000368}}
+.front .hewston-flipped .container-fluid > .row:nth-child(2) .col-md-4.radix-layouts-column3 {
+  background-color: #A1AFC7;
 }
 
 /**
