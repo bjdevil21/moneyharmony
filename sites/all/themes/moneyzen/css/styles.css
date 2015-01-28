@@ -1730,7 +1730,7 @@ body #navigation #tb-megamenu-main-menu {
 }
 /* line 25, ../sass/_moneyharmony.scss */
 body #main {
-  background-color: #fff;
+  background: #fff url("/sites/all/themes/moneyzen/images/bkBody.png") repeat-y top left;
 }
 /* line 31, ../sass/_moneyharmony.scss */
 body #footer {

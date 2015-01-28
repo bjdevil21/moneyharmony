@@ -23,10 +23,10 @@ body {
     }
   }
   #main {
-    background-color: #fff;
+    background: #fff url("/sites/all/themes/moneyzen/images/bkBody.png") repeat-y top left;
   }
   #content {
-    
+
   }
   #footer {
     background-color: $footergray;
