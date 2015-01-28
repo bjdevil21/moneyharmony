@@ -27,3 +27,37 @@ body {
     text-align: center;
   }
 }
+
+#header {
+  .block {
+    margin-bottom: 0px;
+    margin-top: $base-font-size;
+  }
+}
+
+
+#content {
+  & > h1.page-title {
+    display: none;
+  }
+  h1.pane-title {
+    display: none;
+  }
+  // Books page
+  div.reviews {
+    background-color: $lightblue;
+    border-left: 1px dashed $darkbluealt;
+    border-top: 1px dashed $darkbluealt;
+    clear: left;
+    margin: 1em 1.5em 1em 0.7em;
+    padding: 15px;
+  }
+  img.bookimage {
+    border: 3px inset $darkbluealt;
+    display: inline;
+    float: left;
+    margin: -1px 1em 1em -1px;
+    width: 100px;
+    height: 150px;
+  }
+}
