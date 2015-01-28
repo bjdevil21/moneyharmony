@@ -250,6 +250,11 @@ ul {
   #navigation #tb-megamenu-main-menu {
     line-height: 1em;
   }
+
+  /* line 224, ../sass/layouts/_responsive.scss */
+  #main {
+    background: #fff url("/sites/all/themes/moneyzen/images/bkBody.png") repeat-y top left;
+  }
 }
 /* Component (SMACSS module) rules */
 /**
