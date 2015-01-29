@@ -4457,34 +4457,34 @@ body #footer {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\0000360}}
-.front .hewston-flipped .container-fluid > .row {
+.front .money-hewston-flipped .container-fluid > .row {
   margin-left: -10px;
   margin-right: -10px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\0000364}}
-.front .hewston-flipped .container-fluid > .row:nth-of-type(even) {
+.front .money-hewston-flipped .container-fluid > .row:nth-of-type(even) {
   background: #E7EBF1 url("/sites/all/themes/moneyzen/images/indexSepBkgd.gif") repeat-x top left;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\0000367}}
-.front .hewston-flipped .container-fluid > .row:nth-of-type(even) .col-md-4.radix-layouts-column1 {
+.front .money-hewston-flipped .container-fluid > .row:nth-of-type(even) .col-md-4.radix-layouts-column1 {
   color: #fff;
   background-color: #33729B;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\0000370}}
-.front .hewston-flipped .container-fluid > .row:nth-of-type(even) .col-md-4.radix-layouts-column1 ul {
+.front .money-hewston-flipped .container-fluid > .row:nth-of-type(even) .col-md-4.radix-layouts-column1 ul {
   padding-left: 0px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\0000372}}
-.front .hewston-flipped .container-fluid > .row:nth-of-type(even) .col-md-4.radix-layouts-column1 ul li {
+.front .money-hewston-flipped .container-fluid > .row:nth-of-type(even) .col-md-4.radix-layouts-column1 ul li {
   clear: left;
   list-style-type: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\0000378}}
-.front .hewston-flipped .container-fluid > .row:nth-of-type(even) .col-md-4.radix-layouts-column2 {
+.front .money-hewston-flipped .container-fluid > .row:nth-of-type(even) .col-md-4.radix-layouts-column2 {
   background-color: #E7EBF1;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\0000381}}
-.front .hewston-flipped .container-fluid > .row:nth-of-type(even) .col-md-4.radix-layouts-column3 {
+.front .money-hewston-flipped .container-fluid > .row:nth-of-type(even) .col-md-4.radix-layouts-column3 {
   background-color: #A1AFC7;
 }
 
