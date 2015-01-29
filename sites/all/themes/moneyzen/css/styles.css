@@ -4483,6 +4483,11 @@ body #footer {
 .front .hewston-flipped .container-fluid > .row:nth-of-type(even) .col-md-4.radix-layouts-column3 {
   background-color: #A1AFC7;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\0000389}}
+.front .view-fp-slider .slider-mm {
+  float: right;
+  margin: 0 0 0.7em 1em;
+}
 
 /**
  * @file
