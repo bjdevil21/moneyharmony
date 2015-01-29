@@ -4492,13 +4492,17 @@ body #footer {
 .view-fp-slider .flexslider {
   box-shadow: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\0000393}}
+.view-fp-slider .flexslider .flex-direction-nav a {
+  overflow: inherit;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\0000397}}
 .view-fp-slider .slider-mm {
   float: right;
   margin: 0 0 0.7em 1em;
   padding: 1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\00003102}}
 .view-fp-slider .views-field-title {
   background-color: #E7EBF1;
   border-bottom: 1px solid #004069;
@@ -4508,7 +4512,7 @@ body #footer {
   margin: 0.5em 0;
   padding: 0.33em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\00003112}}
 .view-fp-slider .views-field-body .article-quote {
   font-size: 0.9em;
   font-style: italic;

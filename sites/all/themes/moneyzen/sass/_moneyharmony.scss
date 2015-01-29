@@ -90,6 +90,9 @@ body {
 .view-fp-slider {
   .flexslider { // override flexslider module CSS
     box-shadow: none;
+    .flex-direction-nav a {
+      overflow: inherit; // override clipping of prev/next icons.
+    }
   }
   .slider-mm {
     float: right;
