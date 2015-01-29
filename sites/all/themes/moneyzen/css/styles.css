@@ -3456,6 +3456,11 @@ table {
     margin-left: 200%;
     margin-right: -300%;
   }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003156}}
+  .field-name-field-basic-image-image img[src*=olivia_mellan_300] {
+    display: none !important;
+  }
 }
 /**
  * Use 5 grid columns for larger screens.
@@ -3464,19 +3469,19 @@ table {
   /**
    * The layout when there is only one sidebar, the left one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003171}}
   .sidebar-first {
     /* Span 4 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003173}}
   .sidebar-first #content {
     float: left;
     width: 400%;
     margin-left: 100%;
     margin-right: -500%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003178}}
   .sidebar-first .region-sidebar-first {
     float: left;
     width: 100%;
@@ -3487,19 +3492,19 @@ table {
   /**
    * The layout when there is only one sidebar, the right one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003186}}
   .sidebar-second {
     /* Span 4 columns, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003184}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003188}}
   .sidebar-second #content {
     float: left;
     width: 400%;
     margin-left: 0%;
     margin-right: -400%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003193}}
   .sidebar-second .region-sidebar-second {
     float: left;
     width: 100%;
@@ -3510,13 +3515,13 @@ table {
   /**
    * The layout when there are two sidebars.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003201}}
   .two-sidebars {
     /* Span 3 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003203}}
   .two-sidebars #content {
     float: left;
     width: 300%;
@@ -3524,14 +3529,14 @@ table {
     margin-right: -400%;
     background-color: orange;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003209}}
   .two-sidebars .region-sidebar-first {
     float: left;
     width: 100%;
     margin-left: 0%;
     margin-right: -100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003214}}
   .two-sidebars .region-sidebar-second {
     float: left;
     width: 100%;
@@ -3539,18 +3544,18 @@ table {
     margin-right: -500%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003220}}
   #navigation {
     padding-left: 0px;
     padding-right: 0px;
     height: inherit !important;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003223}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003227}}
   #navigation #tb-megamenu-main-menu {
     line-height: 1em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003231}}
   .no-sidebars #main {
     background: #fff url("/sites/all/themes/moneyzen/images/bkBody.png") repeat-y top left;
     background-size: 25%;

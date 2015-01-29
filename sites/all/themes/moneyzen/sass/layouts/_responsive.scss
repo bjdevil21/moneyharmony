@@ -152,6 +152,10 @@ $zen-auto-include-item-base: false;
       }
     }
   }
+  // Hack - hide main Olivia image on responsive
+  .field-name-field-basic-image-image img[src*=olivia_mellan_300] {
+    display: none !important;
+  }
 }
 
 /**
