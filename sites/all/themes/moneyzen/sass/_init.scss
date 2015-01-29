@@ -97,6 +97,8 @@ $font-monospace:   $courier;
 // Colors, etc.
 //
 
+@import "colors";
+
 // The amount lists, blockquotes and comments are indented.
 $indent-amount: 30px;
 
@@ -106,16 +108,6 @@ $nav-height: 3em;
 // Tab styling.
 $tabs-container-bg: #fff;
 $tabs-border: #bbb;
-
-// MH custom colors
-$bluegray: #B4C0D4;
-$darkblue: #33729B;
-$darkbluealt: #004069;
-$lightblue: #E7EBF1;
-$medblue: #739FBB;
-$steelblue: #A1AFC7;
-$navbar: #73A28F;
-$footergray: #6F737A;
 
 // =============================================================================
 // Partials to be shared with all .scss files.
