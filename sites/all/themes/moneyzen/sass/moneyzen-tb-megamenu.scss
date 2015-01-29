@@ -9,6 +9,10 @@
   border-bottom: solid 2px $lightblue;
   border-top: solid 2px $lightblue;
 
+  .nav > li > a {
+    border-right: 1px solid $navbar;
+  }
+
   // Custom CSS settings (taken from other custom styles CSS files in TB Mega Menu module
 
   .dropdown-menu {
