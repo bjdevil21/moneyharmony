@@ -88,6 +88,9 @@ body {
 }
 // slider
 .view-fp-slider {
+  .flexslider { // override flexslider module CSS
+    box-shadow: none;
+  }
   .slider-mm {
     float: right;
     margin: 0 0 0.7em 1em;
@@ -98,7 +101,14 @@ body {
     border-bottom: 1px solid $darkbluealt;
     font-size: 1.7em;
     font-style: italic;
-    margin-top: 0.5em;
-    padding-bottom: 6px;
+    line-height: 1.2em;
+    margin: 0.5em 0;
+    padding: 0.33em;
+  }
+  .views-field-body {
+    .article-quote {
+      font-size: 0.9em;
+      font-style: italic;
+    }
   }
 }
