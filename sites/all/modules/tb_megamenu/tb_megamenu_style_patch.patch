@@ -1,0 +1,86 @@
+From c3eecd6f120d33b87d9598bb07c5b0496568704d Mon Sep 17 00:00:00 2001
+From: Bryan <aubjr@asu.edu>
+Date: Thu, 29 Jan 2015 15:07:43 -0700
+Subject: [PATCH 1/2] Added custom CSS for TB Megamenu
+
+---
+ sites/all/modules/tb_megamenu/tb_megamenu.functions.inc |  7 +++++--
+ sites/all/modules/tb_megamenu/tb_megamenu.themes.inc    | 11 ++++++++++-
+ 2 files changed, 15 insertions(+), 3 deletions(-)
+
+diff --git a/sites/all/modules/tb_megamenu/tb_megamenu.functions.inc b/sites/all/modules/tb_megamenu/tb_megamenu.functions.inc
+index 48146d1..c2c72bb 100644
+--- a/sites/all/modules/tb_megamenu/tb_megamenu.functions.inc
++++ b/sites/all/modules/tb_megamenu/tb_megamenu.functions.inc
+@@ -430,7 +430,8 @@ function tb_megamenu_style_options($block_config) {
+     '' => t('Default'),
+     'black' => t('Black'),
+     'blue' => t('Blue'),
+-    'green' => t('Green'), 
++    'green' => t('Green'),
++    'moneyzen-tb-megamenu' => t('Moneyzen'),
+   );
+   $options = array();
+   foreach($styles as $value => $title) {
+@@ -534,7 +535,9 @@ function tb_megamenu_replace_css() {
+     drupal_get_path('module', 'tb_megamenu') . '/css/styles/black.css', 
+     drupal_get_path('module', 'tb_megamenu') . '/css/styles/blue.css', 
+     drupal_get_path('module', 'tb_megamenu') . '/css/styles/green.css', 
+-    drupal_get_path('module', 'tb_megamenu') . '/css/styles/orange.css', 
++    drupal_get_path('module', 'tb_megamenu') . '/css/styles/orange.css',
++    //drupal_get_path('theme', 'moneyzen') . '/css/moneygreen.css',
++    drupal_get_path('module', 'tb_megamenu') . '/css/styles/moneygreen.css',
+   );
+   foreach($files as $css_file) {
+     $output = array();
+diff --git a/sites/all/modules/tb_megamenu/tb_megamenu.themes.inc b/sites/all/modules/tb_megamenu/tb_megamenu.themes.inc
+index d9fd93b..33ef426 100644
+--- a/sites/all/modules/tb_megamenu/tb_megamenu.themes.inc
++++ b/sites/all/modules/tb_megamenu/tb_megamenu.themes.inc
+@@ -19,7 +19,16 @@ function template_preprocess_tb_megamenu(&$vars) {
+   tb_megamenu_edit_block_config($block_config);
+   $vars['classes_array'][] = "tb-megamenu-" . str_replace('_', '-', $menu_name);
+   if($vars['section'] == 'frontend' && $block_config['style'] != '') {
+-    drupal_add_css(drupal_get_path("module", "tb_megamenu") . "/css/styles/" . $block_config['style'] . ".css", array(
++    // hack to get CSS into Moneyzen theme for SASS processing
++    if ($block_config['style'] === 'moneyzen-tb-megamenu') {
++      $path = drupal_get_path("theme", "moneyzen") . "/css/" . $block_config['style'] . ".css";
++    }
++    else {
++      $path = drupal_get_path("module", "tb_megamenu") . "/css/styles/" . $block_config['style'] . ".css";
++    }
++    dpm($block_config, "block_config");
++    dpm($path, "path");
++    drupal_add_css($path, array(
+         'basename' => "tb-megamenu-style-" . $block_config['style'] . ".css",
+       ));
+     $vars['classes_array'][] = "style-" . $block_config['style'];
+-- 
+1.9.1
+
+
+From d774558c924052ad2bcb44613cf5edc63426287a Mon Sep 17 00:00:00 2001
+From: Bryan <aubjr@asu.edu>
+Date: Thu, 29 Jan 2015 15:18:17 -0700
+Subject: [PATCH 2/2] Turned off dpm
+
+---
+ sites/all/modules/tb_megamenu/tb_megamenu.themes.inc | 2 --
+ 1 file changed, 2 deletions(-)
+
+diff --git a/sites/all/modules/tb_megamenu/tb_megamenu.themes.inc b/sites/all/modules/tb_megamenu/tb_megamenu.themes.inc
+index 33ef426..3a0c091 100644
+--- a/sites/all/modules/tb_megamenu/tb_megamenu.themes.inc
++++ b/sites/all/modules/tb_megamenu/tb_megamenu.themes.inc
+@@ -26,8 +26,6 @@ function template_preprocess_tb_megamenu(&$vars) {
+     else {
+       $path = drupal_get_path("module", "tb_megamenu") . "/css/styles/" . $block_config['style'] . ".css";
+     }
+-    dpm($block_config, "block_config");
+-    dpm($path, "path");
+     drupal_add_css($path, array(
+         'basename' => "tb-megamenu-style-" . $block_config['style'] . ".css",
+       ));
+-- 
+1.9.1
+
