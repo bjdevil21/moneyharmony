@@ -46,7 +46,7 @@ $zen-auto-include-item-base: false;
 #footer {
   // See the note about $zen-auto-include-item-base above.
   @include zen-grid-item-base();
-  // override:
+  // Moneyharmony override:
   padding-left: 15px;
   padding-right: 15px;
 }

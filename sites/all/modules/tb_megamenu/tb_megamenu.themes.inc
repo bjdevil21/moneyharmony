@@ -19,7 +19,16 @@ function template_preprocess_tb_megamenu(&$vars) {
   tb_megamenu_edit_block_config($block_config);
   $vars['classes_array'][] = "tb-megamenu-" . str_replace('_', '-', $menu_name);
   if($vars['section'] == 'frontend' && $block_config['style'] != '') {
-    drupal_add_css(drupal_get_path("module", "tb_megamenu") . "/css/styles/" . $block_config['style'] . ".css", array(
+    // hack to get CSS into Moneyzen theme for SASS processing
+    if ($block_config['style'] === 'moneyzen-tb-megamenu') {
+      $path = drupal_get_path("theme", "moneyzen") . "/css/" . $block_config['style'] . ".css";
+    }
+    else {
+      $path = drupal_get_path("module", "tb_megamenu") . "/css/styles/" . $block_config['style'] . ".css";
+    }
+    dpm($block_config, "block_config");
+    dpm($path, "path");
+    drupal_add_css($path, array(
         'basename' => "tb-megamenu-style-" . $block_config['style'] . ".css",
       ));
     $vars['classes_array'][] = "style-" . $block_config['style'];

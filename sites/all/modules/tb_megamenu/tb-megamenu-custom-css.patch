@@ -1,0 +1,36 @@
+From 34aa68a3044a9c432c43ce17aa61842e960841de Mon Sep 17 00:00:00 2001
+From: Bryan <aubjr@asu.edu>
+Date: Thu, 29 Jan 2015 12:05:31 -0700
+Subject: [PATCH] Updated TB Mega Menu module to read in custom CSS file
+
+---
+ sites/all/modules/tb_megamenu/tb_megamenu.functions.inc | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+diff --git a/sites/all/modules/tb_megamenu/tb_megamenu.functions.inc b/sites/all/modules/tb_megamenu/tb_megamenu.functions.inc
+index 48146d1..8d679fe 100644
+--- a/sites/all/modules/tb_megamenu/tb_megamenu.functions.inc
++++ b/sites/all/modules/tb_megamenu/tb_megamenu.functions.inc
+@@ -430,7 +430,8 @@ function tb_megamenu_style_options($block_config) {
+     '' => t('Default'),
+     'black' => t('Black'),
+     'blue' => t('Blue'),
+-    'green' => t('Green'), 
++    'green' => t('Green'),
++    'moneygreen' => t('Money Green'),
+   );
+   $options = array();
+   foreach($styles as $value => $title) {
+@@ -534,7 +535,8 @@ function tb_megamenu_replace_css() {
+     drupal_get_path('module', 'tb_megamenu') . '/css/styles/black.css', 
+     drupal_get_path('module', 'tb_megamenu') . '/css/styles/blue.css', 
+     drupal_get_path('module', 'tb_megamenu') . '/css/styles/green.css', 
+-    drupal_get_path('module', 'tb_megamenu') . '/css/styles/orange.css', 
++    drupal_get_path('module', 'tb_megamenu') . '/css/styles/orange.css',
++    drupal_get_path('theme', 'moneyzen') . '/css/moneygreen.css',
+   );
+   foreach($files as $css_file) {
+     $output = array();
+-- 
+1.9.1
+
