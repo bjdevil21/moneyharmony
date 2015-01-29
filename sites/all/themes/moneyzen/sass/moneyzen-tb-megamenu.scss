@@ -1,5 +1,9 @@
 @import "colors";
 
+.tb_megamenu {
+  background-color: $navbar;
+}
+
 .tb-megamenu .dropdown-menu {
   border-bottom-color: $lightblue;
 }
