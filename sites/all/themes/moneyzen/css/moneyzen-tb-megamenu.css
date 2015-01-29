@@ -1,69 +1,66 @@
-.tb-megamenu .dropdown-menu {
-  border-bottom-color: #abba64;
-}
+/*
+Error: Undefined variable: "$lightblue".
+        on line 2 of /home/bryan/moneyhar/sites/all/themes/moneyzen/sass/moneyzen-tb-megamenu.scss
 
-.tb-megamenu .nav li.dropdown.active > .dropdown-toggle,
-.tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle {
-  background-color: #abba64;
-}
+1: .tb-megamenu .dropdown-menu {
+2:   border-bottom-color: $lightblue;
+3: }
+4: 
+5: .tb-megamenu .nav li.dropdown.active > .dropdown-toggle,
+6: .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle {
+7:   background-color: $lightblue;
 
-.tb-megamenu .nav > li > a:focus,
-.tb-megamenu .nav > li > a:hover {
-  color: #abba64;
-}
-
-.tb-megamenu .nav li.dropdown.open > .dropdown-toggle {
-  color: #abba64;
-}
-
-.tb-megamenu .nav li.dropdown.open > .dropdown-toggle,
-.tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle {
-  background-color: #fff;
-  color: #abba64;
-}
-
-.tb-megamenu .nav > li.dropdown.open.active > a:hover,
-.tb-megamenu .nav > li.dropdown.open.active > a:focus {
-  background-color: #fff;
-  color: #abba64;
-}
-
-.tb-megamenu .dropdown-menu li > a:hover,
-.tb-megamenu .dropdown-menu li > a:focus,
-.tb-megamenu .dropdown-submenu:hover > a {
-  color: #abba64;
-}
-
-.tb-megamenu .nav > .active > a,
-.tb-megamenu .nav > .active > a:hover,
-.tb-megamenu .nav > .active > a:focus {
-  color: #fff;
-  text-shadow: none;
-  background-color: #abba64;
-  background-image: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  outline: none;
-}
-
-.tb-megamenu .block-view-demo .views-field-field-image img {
-  border: 1px solid #eee;
-}
-
-.tb-megamenu .block-view-demo .item-list ul li {
-  border-bottom: 1px solid #eee;
-}
-
-@media (max-width: 979px) {
-  .tb-megamenu .nav-collapse .nav > li > a:hover,
-  .tb-megamenu .nav-collapse .nav > li > a:focus {
-    color: #abba64;
-  }
-
-  .tb-megamenu .nav-collapse .nav > li.active > a:hover,
-  .tb-megamenu .nav-collapse .nav > li.active > a:focus {
-    background-color: #abba64;
-    color: #fff;
-  }
-}
+Backtrace:
+/home/bryan/moneyhar/sites/all/themes/moneyzen/sass/moneyzen-tb-megamenu.scss:2
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/script/tree/variable.rb:49:in `_perform'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/script/tree/node.rb:50:in `perform'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/stack.rb:79:in `block in with_base'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/stack.rb:115:in `with_frame'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/stack.rb:79:in `with_base'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:430:in `map'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/stack.rb:79:in `block in with_base'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/stack.rb:115:in `with_frame'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/stack.rb:79:in `with_base'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/tree/visitors/base.rb:52:in `map'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/tree/root_node.rb:36:in `css_tree'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/tree/root_node.rb:20:in `render'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/engine.rb:268:in `render'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:209:in `each'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/vendor/listen/lib/listen/listener.rb:252:in `call'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/home/bryan/.rvm/gems/ruby-2.2.0/gems/sass-3.4.10/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$lightblue\".\A         on line 2 of /home/bryan/moneyhar/sites/all/themes/moneyzen/sass/moneyzen-tb-megamenu.scss\A \A 1: .tb-megamenu .dropdown-menu {\A 2:   border-bottom-color: $lightblue;\A 3: }\A 4: \A 5: .tb-megamenu .nav li.dropdown.active > .dropdown-toggle,\A 6: .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle {\A 7:   background-color: $lightblue;"; }
