@@ -4463,7 +4463,7 @@ body #footer {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\0000364}}
 .front .hewston-flipped .container-fluid > .row:nth-of-type(even) {
-  background: transparent url("/sites/all/themes/moneyzen/images/indexSepBkgd.gif") repeat-x top left;
+  background: #E7EBF1 url("/sites/all/themes/moneyzen/images/indexSepBkgd.gif") repeat-x top left;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\0000367}}
 .front .hewston-flipped .container-fluid > .row:nth-of-type(even) .col-md-4.radix-layouts-column1 {

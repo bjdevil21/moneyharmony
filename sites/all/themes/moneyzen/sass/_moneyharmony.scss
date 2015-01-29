@@ -62,7 +62,7 @@ body {
       margin-left: -10px;
       margin-right: -10px;
       &:nth-of-type(even) {
-        background: transparent url("/sites/all/themes/moneyzen/images/indexSepBkgd.gif") repeat-x top left;
+        background: $lightblue url("/sites/all/themes/moneyzen/images/indexSepBkgd.gif") repeat-x top left;
         .col-md-4 {
           &.radix-layouts-column1 {
             color: #fff;
