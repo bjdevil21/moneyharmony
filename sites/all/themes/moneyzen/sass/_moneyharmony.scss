@@ -17,7 +17,7 @@ body {
   #content {
   }
   #footer {
-    background-color: $footergray;
+    background: $footergray url("/sites/all/themes/moneyzen/images/indexSepBkgd.gif") repeat-x top left;
     color: #fff;
     text-align: center;
   }
@@ -62,6 +62,7 @@ body {
       margin-left: -10px;
       margin-right: -10px;
       &:nth-of-type(even) {
+        background: transparent url("/sites/all/themes/moneyzen/images/indexSepBkgd.gif") repeat-x top left;
         .col-md-4 {
           &.radix-layouts-column1 {
             color: #fff;
@@ -91,5 +92,13 @@ body {
     float: right;
     margin: 0 0 0.7em 1em;
     padding: 1px;
+  }
+  .views-field-title {
+    background-color: $lightblue;
+    border-bottom: 1px solid $darkbluealt;
+    font-size: 1.7em;
+    font-style: italic;
+    margin-top: 0.5em;
+    padding-bottom: 6px;
   }
 }
