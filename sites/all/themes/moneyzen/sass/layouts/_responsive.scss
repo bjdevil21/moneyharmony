@@ -46,6 +46,9 @@ $zen-auto-include-item-base: false;
 #footer {
   // See the note about $zen-auto-include-item-base above.
   @include zen-grid-item-base();
+  // override:
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 /* Containers for grid items and flow items. */
