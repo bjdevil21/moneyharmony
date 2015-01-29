@@ -26,8 +26,6 @@ function template_preprocess_tb_megamenu(&$vars) {
     else {
       $path = drupal_get_path("module", "tb_megamenu") . "/css/styles/" . $block_config['style'] . ".css";
     }
-    dpm($block_config, "block_config");
-    dpm($path, "path");
     drupal_add_css($path, array(
         'basename' => "tb-megamenu-style-" . $block_config['style'] . ".css",
       ));
