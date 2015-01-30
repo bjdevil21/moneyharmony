@@ -41,10 +41,6 @@
 
     // Custom CSS settings (taken from other custom styles CSS files in TB Mega Menu module
 
-  .dropdown-menu {
-    border-bottom-color: $lightblue;
-  }
-
   .nav {
     li.dropdown.active > .dropdown-toggle,
     li.dropdown.open.active > .dropdown-toggle {
@@ -80,15 +76,13 @@
     background-color: $darkblue;
     background-image: linear-gradient(to bottom, #0088CC, #0077B3);
     background-repeat: repeat-x;
-    color: #fff;
+    color: #eee;
     text-decoration: none;
   }
 
   .nav {
-    & > .active > a,
-    & > .active > a:hover,
-    & > .active > a:focus {
-      color: #fff;
+    & > .active > a {
+      color: $darkbluealt;
       text-shadow: none;
       background-color: $lightblue;
       background-image: none;
@@ -96,8 +90,21 @@
       -moz-box-shadow: none;
       box-shadow: none;
       outline: none;
+      &:hover,
+      &:focus {
+        color: #eee;
+      }
     }
+  }
 
+  .dropdown-menu {
+    border-bottom-color: $lightblue;
+    .active > a {
+      color: $darkbluealt;
+      &:hover {
+        color: #eee;
+      }
+    }
   }
 
   .block-view-demo {
