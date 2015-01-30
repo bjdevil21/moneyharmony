@@ -31,7 +31,11 @@
 .tb-megamenu .nav li.dropdown.active > .dropdown-toggle,
 .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle {
   background-color: #E7EBF1;
+  border-color: #E7EBF1;
   color: #004069;
+}
+.tb-megamenu .nav > li.dropdown.open.active > a:hover {
+  border-color: #E7EBF1;
 }
 .tb-megamenu .nav > li > a:focus, .tb-megamenu .nav > li > a:hover {
   color: #004069;
@@ -41,11 +45,7 @@
   color: #004069;
 }
 .tb-megamenu .nav li.dropdown.open > .dropdown-toggle,
-.tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle {
-  background-color: #eee;
-  color: #004069;
-}
-.tb-megamenu .nav > li.dropdown.open.active > a:hover, .tb-megamenu .nav > li.dropdown.open.active > a:focus {
+.tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle, .tb-megamenu .nav > li.dropdown.open.active > a:hover, .tb-megamenu .nav > li.dropdown.open.active > a:focus {
   background-color: #eee;
   color: #004069;
 }

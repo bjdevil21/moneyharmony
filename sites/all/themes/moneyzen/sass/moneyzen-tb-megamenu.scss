@@ -45,7 +45,12 @@
     li.dropdown.active > .dropdown-toggle,
     li.dropdown.open.active > .dropdown-toggle {
       background-color: $lightblue;
+      border-color: $lightblue;
       color: $darkbluealt;
+    }
+
+    & > li.dropdown.open.active > a:hover {
+      border-color: $lightblue;
     }
 
     & > li > a:focus,
@@ -59,10 +64,7 @@
     }
 
     li.dropdown.open > .dropdown-toggle,
-    li.dropdown.open.active > .dropdown-toggle {
-      background-color: #eee;
-      color: $darkbluealt;
-    }
+    li.dropdown.open.active > .dropdown-toggle,
     & > li.dropdown.open.active > a:hover,
     & > li.dropdown.open.active > a:focus {
       background-color: #eee;
