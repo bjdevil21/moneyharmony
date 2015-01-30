@@ -79,7 +79,7 @@ $zen-auto-include-item-base: false;
 /**
  * Use 3 grid columns for smaller screens.
  */
-@media all and (min-width: 480px) and (max-width: 959px) {
+@media all and (min-width: 480px) and (max-width: 991px) {
 
   $zen-column-count: 3;
 
@@ -161,7 +161,7 @@ $zen-auto-include-item-base: false;
 /**
  * Use 5 grid columns for larger screens.
  */
-@media all and (min-width: 960px) {
+@media all and (min-width: 991px) {
 
   $zen-column-count: 5;
 
@@ -218,10 +218,6 @@ $zen-auto-include-item-base: false;
 
   // custom - TB Mega Menu edits
   #navigation {
-    padding: {
-      left: 0px;
-      right: 0px;
-    }
     height: inherit !important;
     // remove line-height issues -
     #tb-megamenu-main-menu {

@@ -1,3 +1,8 @@
+#navigation {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
 .tb-megamenu {
   background-color: #73A28F;
   border-bottom: solid 2px #E7EBF1;
@@ -94,7 +99,7 @@
   margin: 0.5em;
 }
 
-@media (max-width: 979px) {
+@media (max-width: 991px) {
   .tb-megamenu .nav-collapse .nav > li > a:hover, .tb-megamenu .nav-collapse .nav > li > a:focus {
     color: #004069;
   }
@@ -102,17 +107,15 @@
     background-color: #E7EBF1;
     color: #004069;
   }
-}
-@media (max-width: 959px) {
-  #navigation {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-  }
-
-  .tb-megamenu {
+  .tb-megamenu .nav-collapse .nav .tb-megamenu {
     min-height: 50px;
   }
-  .tb-megamenu .nav-collapse {
+  .tb-megamenu .nav-collapse .nav .tb-megamenu .nav-collapse {
     top: 45px;
+  }
+  .tb-megamenu .nav-collapse .nav .tb-megamenu .btn-navbar {
+    position: absolute;
+    right: 1em;
+    top: -60px;
   }
 }

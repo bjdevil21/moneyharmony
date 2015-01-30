@@ -1,5 +1,13 @@
 @import "colors";
 
+#navigation { // no padding for this element
+  padding: {
+    left: 0px !important;
+    right: 0px !important;
+  }
+}
+
+// Now TB Mega Menu - custom styling
 
 .tb-megamenu {
 
@@ -124,7 +132,7 @@
     }
   }
 
-  // button CSS alterations
+  // button CSS alterations - desktop
   .btn-navbar {
     float: right;
     margin: 0.5em;
@@ -134,31 +142,30 @@
 
 // Custom media rules
 
-@media (max-width: 979px) {
-.tb-megamenu .nav-collapse .nav {
-  & > li > a:hover,
-  & > li > a:focus {
-    color: $darkbluealt;
-  }
-  & > li.active > a {
-    &:hover,
-    &.focus {
-      background-color: $lightblue;
+@media (max-width: 991px) {
+  .tb-megamenu .nav-collapse .nav {
+    & > li > a:hover,
+    & > li > a:focus {
       color: $darkbluealt;
     }
-  }
-}
-
-}
-@media (max-width: 959px) {
-  #navigation {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-  }
-  .tb-megamenu {
-    min-height: 50px;
-    .nav-collapse {
-      top: 45px;
+    & > li.active > a {
+      &:hover,
+      &.focus {
+        background-color: $lightblue;
+        color: $darkbluealt;
+      }
+    }
+    .tb-megamenu {
+      min-height: 50px;
+      .nav-collapse {
+        top: 45px;
+      }
+      .btn-navbar {
+        position: absolute;
+        right: 1em;
+        top: -60px;
+      }
     }
   }
+
 }
