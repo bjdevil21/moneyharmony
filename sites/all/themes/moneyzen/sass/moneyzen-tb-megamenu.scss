@@ -9,8 +9,9 @@
   border-bottom: solid 2px $lightblue;
   border-top: solid 2px $lightblue;
 
-  .nav > li > a {
-    border-right: none;
+  .nav > li > a,
+  .nav > li > a:hover,{
+    border-right: 1px solid #fff;
     text-decoration: none;
     border-bottom: none;
   }
@@ -31,7 +32,7 @@
     & > li > a:focus,
     & > li > a:hover {
       color: $darkbluealt;
-      border-right: 1px solid $lightblue;
+      border-right: 1px solid #fff;
     }
 
     li.dropdown.open > .dropdown-toggle {
@@ -54,6 +55,7 @@
   .dropdown-menu li > a:focus,
   .dropdown-submenu:hover > a {
     color: $darkbluealt;
+    text-decoration: none;
   }
 
   .nav {
