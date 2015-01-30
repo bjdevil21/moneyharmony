@@ -152,16 +152,12 @@ $zen-auto-include-item-base: false;
       }
     }
   }
-  // Hack - hide main Olivia image on responsive
-  .field-name-field-basic-image-image img[src*=olivia_mellan_300] {
-    display: none !important;
-  }
 }
 
 /**
  * Use 5 grid columns for larger screens.
  */
-@media all and (min-width: 991px) {
+@media all and (min-width: 992px) {
 
   $zen-column-count: 5;
 
@@ -228,5 +224,12 @@ $zen-auto-include-item-base: false;
     background: #fff url("/sites/all/themes/moneyzen/images/bkBody.png") repeat-y top left;
     background-size: 25%;
     // settings
+  }
+}
+
+@media all and (max-width: 991px) {
+  // Hack - hide main Olivia image on responsive
+  .field-name-field-basic-image-image img[src*=olivia_mellan_300] {
+    display: none !important;
   }
 }

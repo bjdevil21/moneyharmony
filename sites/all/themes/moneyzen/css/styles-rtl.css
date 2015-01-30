@@ -2317,15 +2317,11 @@ ul {
     margin-right: 200%;
     margin-left: -300%;
   }
-
-  .field-name-field-basic-image-image img[src*=olivia_mellan_300] {
-    display: none !important;
-  }
 }
 /**
  * Use 5 grid columns for larger screens.
  */
-@media all and (min-width: 991px) {
+@media all and (min-width: 992px) {
   /**
    * The layout when there is only one sidebar, the left one.
    */
@@ -2404,6 +2400,11 @@ ul {
   .no-sidebars #main {
     background: #fff url("/sites/all/themes/moneyzen/images/bkBody.png") repeat-y top left;
     background-size: 25%;
+  }
+}
+@media all and (max-width: 991px) {
+  .field-name-field-basic-image-image img[src*=olivia_mellan_300] {
+    display: none !important;
   }
 }
 /* Component (SMACSS module) rules */
