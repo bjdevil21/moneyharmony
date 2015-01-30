@@ -173,12 +173,12 @@
         }
       }
       .dropdown-menu {
+        background-color: $lightblue;
         a {
           color: $darkbluealt;
         }
       }
     }
-
   }
   #main { // make up for no navbar
     padding-top: $mobile-nav-height !important;
