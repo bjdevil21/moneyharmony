@@ -3,7 +3,7 @@
 
 .tb-megamenu {
 
-  // Overrides of default.css
+  // Overrides of default.css or base.scss
 
   background-color: $navbar;
   border-bottom: solid 2px $lightblue;
@@ -16,12 +16,19 @@
     border-bottom: none;
   }
 
+  .span12.mega-col-nav .mega-inner,
+  .mega-inner {
+    padding: 0px;
+  }
+
   // reformat subnav links
+
   .mega-nav > li,
   .dropdown-menu .mega-nav > li {
     padding: 0px; // override
     &:first-child {
       & > a {
+        margin-top: 0;
         padding-top: 10px; // override
       }
     }
@@ -31,17 +38,6 @@
       padding: 10px; // add
     }
   }
-  .span12.mega-col-nav .mega-inner,
-  .mega-inner {
-    padding: 0px;
-  }
-
-
-  .mega-nav > li:first-child > a,
-  .dropdown-menu .mega-nav > li:first-child > a {
-    margin-top: 0;
-    padding-top: 10px;
-  }
 
     // Custom CSS settings (taken from other custom styles CSS files in TB Mega Menu module
 
@@ -49,7 +45,7 @@
     border-bottom-color: $lightblue;
   }
 
-    .nav {
+  .nav {
     li.dropdown.active > .dropdown-toggle,
     li.dropdown.open.active > .dropdown-toggle {
       background-color: $lightblue;
@@ -58,7 +54,7 @@
 
     & > li > a:focus,
     & > li > a:hover {
-      color: $darkbluealt;
+      color: #fff;
       border-right: 1px solid #fff;
     }
 
@@ -81,6 +77,9 @@
   .dropdown-menu li > a:hover,
   .dropdown-menu li > a:focus,
   .dropdown-submenu:hover > a {
+    background-color: $darkblue;
+    background-image: linear-gradient(to bottom, #0088CC, #0077B3);
+    background-repeat: repeat-x;
     color: $darkbluealt;
     text-decoration: none;
   }
