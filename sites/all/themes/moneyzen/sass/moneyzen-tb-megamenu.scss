@@ -66,7 +66,7 @@
       background-color: #eee;
       color: $darkbluealt;
     }
-    
+
     // down arrow aka caret
     li.dropdown.open > .dropdown-toggle,
     li.dropdown.active > .dropdown-toggle,
@@ -124,6 +124,12 @@
     }
   }
 
+  // button CSS alterations
+  .btn-navbar {
+    float: right;
+    margin: 0px 1em;
+  }
+
 }
 
 // Custom media rules
@@ -142,4 +148,10 @@
     }
   }
 }
+
+}
+@media (max-width: 959px) {
+  .tb-megamenu {
+    min-height: 60px;
+  }
 }

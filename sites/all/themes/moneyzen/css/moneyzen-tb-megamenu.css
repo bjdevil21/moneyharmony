@@ -89,6 +89,10 @@
 .tb-megamenu .block-view-demo .item-list ul li {
   border-bottom: 1px solid #eee;
 }
+.tb-megamenu .btn-navbar {
+  float: right;
+  margin: 0px 1em;
+}
 
 @media (max-width: 979px) {
   .tb-megamenu .nav-collapse .nav > li > a:hover, .tb-megamenu .nav-collapse .nav > li > a:focus {
@@ -97,5 +101,10 @@
   .tb-megamenu .nav-collapse .nav > li.active > a:hover, .tb-megamenu .nav-collapse .nav > li.active > a.focus {
     background-color: #E7EBF1;
     color: #004069;
+  }
+}
+@media (max-width: 959px) {
+  .tb-megamenu {
+    min-height: 60px;
   }
 }
