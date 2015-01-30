@@ -1,4 +1,6 @@
+// All navigation colors part of master colors file
 @import "colors";
+// Added for box-shadow
 @import "compass/css3/box-shadow";
 
 
@@ -90,6 +92,7 @@
 
   .dropdown-menu li > a:hover,
   .dropdown-menu li > a:focus,
+  .dropdown-menuli.active > a,
   .dropdown-submenu:hover > a {
     background-color: $darkblue;
     background-image: linear-gradient(to bottom, #0088CC, #0077B3);
