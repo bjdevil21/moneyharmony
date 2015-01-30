@@ -9,10 +9,15 @@
   text-decoration: none;
   border-bottom: none;
 }
+.tb-megamenu .mega-nav > li,
+.tb-megamenu .dropdown-menu .mega-nav > li {
+  padding: 0px;
+}
 .tb-megamenu .mega-nav > li a,
 .tb-megamenu .dropdown-menu .mega-nav > li a {
   text-decoration: none;
   color: #004069;
+  padding: 10px;
 }
 .tb-megamenu .dropdown-menu {
   border-bottom-color: #E7EBF1;

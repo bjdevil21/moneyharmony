@@ -16,10 +16,14 @@
     border-bottom: none;
   }
 
-  .mega-nav > li a,
-  .dropdown-menu .mega-nav > li a {
-    text-decoration: none;
-    color: $darkbluealt;
+  .mega-nav > li,
+  .dropdown-menu .mega-nav > li {
+    padding: 0px; // change
+    & a {
+      text-decoration: none; // add
+      color: $darkbluealt;
+      padding: 10px; // add
+    }
   }
 
     // Custom CSS settings (taken from other custom styles CSS files in TB Mega Menu module
