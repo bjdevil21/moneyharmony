@@ -157,5 +157,8 @@
   }
   .tb-megamenu {
     min-height: 50px;
+    .nav-collapse {
+      top: 45px;
+    }
   }
 }

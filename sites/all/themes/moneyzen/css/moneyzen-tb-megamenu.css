@@ -112,4 +112,7 @@
   .tb-megamenu {
     min-height: 50px;
   }
+  .tb-megamenu .nav-collapse {
+    top: 45px;
+  }
 }
