@@ -154,7 +154,8 @@
       top: -60px;
     }
     .nav-collapse {
-      top: 45px;
+      top: 0px;
+      margin-top: 0px;
       .nav {
         & > li > a:hover,
         & > li > a:focus {
