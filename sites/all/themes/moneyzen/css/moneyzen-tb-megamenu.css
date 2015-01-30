@@ -5,9 +5,13 @@
 }
 .tb-megamenu .nav > li > a,
 .tb-megamenu .nav > li > a:hover {
-  border-right: 1px solid #fff;
+  border-right: 1px solid #73A28F;
   text-decoration: none;
   border-bottom: none;
+}
+.tb-megamenu .mega-nav > li a,
+.tb-megamenu .dropdown-menu .mega-nav > li a {
+  text-decoration: none;
 }
 .tb-megamenu .dropdown-menu {
   border-bottom-color: #E7EBF1;

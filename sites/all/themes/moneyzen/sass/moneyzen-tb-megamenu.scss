@@ -11,18 +11,23 @@
 
   .nav > li > a,
   .nav > li > a:hover,{
-    border-right: 1px solid #fff;
+    border-right: 1px solid $navbar;
     text-decoration: none;
     border-bottom: none;
   }
 
-  // Custom CSS settings (taken from other custom styles CSS files in TB Mega Menu module
+  .mega-nav > li a,
+  .dropdown-menu .mega-nav > li a {
+    text-decoration: none;
+  }
+
+    // Custom CSS settings (taken from other custom styles CSS files in TB Mega Menu module
 
   .dropdown-menu {
     border-bottom-color: $lightblue;
   }
 
-  .nav {
+    .nav {
     li.dropdown.active > .dropdown-toggle,
     li.dropdown.open.active > .dropdown-toggle {
       background-color: $lightblue;
