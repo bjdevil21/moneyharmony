@@ -75,6 +75,7 @@
   -moz-box-shadow: none;
   box-shadow: none;
   outline: none;
+  border-right-color: #E7EBF1;
 }
 .tb-megamenu .nav > .active > a:hover, .tb-megamenu .nav > .active > a:focus {
   color: #004069;
