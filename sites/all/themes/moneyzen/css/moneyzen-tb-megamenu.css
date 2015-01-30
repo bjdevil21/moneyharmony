@@ -102,22 +102,22 @@
 }
 
 @media (max-width: 991px) {
+  .tb-megamenu {
+    min-height: 50px;
+  }
+  .tb-megamenu .btn-navbar {
+    position: absolute;
+    right: 1em;
+    top: -60px;
+  }
+  .tb-megamenu .nav-collapse {
+    top: 45px;
+  }
   .tb-megamenu .nav-collapse .nav > li > a:hover, .tb-megamenu .nav-collapse .nav > li > a:focus {
     color: #004069;
   }
   .tb-megamenu .nav-collapse .nav > li.active > a:hover, .tb-megamenu .nav-collapse .nav > li.active > a.focus {
     background-color: #E7EBF1;
     color: #004069;
-  }
-  .tb-megamenu .nav-collapse .nav .tb-megamenu {
-    min-height: 50px;
-  }
-  .tb-megamenu .nav-collapse .nav .tb-megamenu .nav-collapse {
-    top: 45px;
-  }
-  .tb-megamenu .nav-collapse .nav .tb-megamenu .btn-navbar {
-    position: absolute;
-    right: 1em;
-    top: -60px;
   }
 }

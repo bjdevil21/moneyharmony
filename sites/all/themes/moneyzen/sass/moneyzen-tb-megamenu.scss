@@ -145,27 +145,28 @@
 // Custom media rules
 
 @media (max-width: 991px) {
-  .tb-megamenu .nav-collapse .nav {
-    & > li > a:hover,
-    & > li > a:focus {
-      color: $darkbluealt;
+  
+  .tb-megamenu {
+    min-height: 50px;
+    .btn-navbar {
+      position: absolute;
+      right: 1em;
+      top: -60px;
     }
-    & > li.active > a {
-      &:hover,
-      &.focus {
-        background-color: $lightblue;
-        color: $darkbluealt;
-      }
-    }
-    .tb-megamenu {
-      min-height: 50px;
-      .nav-collapse {
-        top: 45px;
-      }
-      .btn-navbar {
-        position: absolute;
-        right: 1em;
-        top: -60px;
+    .nav-collapse {
+      top: 45px;
+      .nav {
+        & > li > a:hover,
+        & > li > a:focus {
+          color: $darkbluealt;
+        }
+        & > li.active > a {
+          &:hover,
+          &.focus {
+            background-color: $lightblue;
+            color: $darkbluealt;
+          }
+        }
       }
     }
   }
