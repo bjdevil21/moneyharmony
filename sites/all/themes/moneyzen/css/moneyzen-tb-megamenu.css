@@ -104,6 +104,11 @@
   }
 }
 @media (max-width: 959px) {
+  #navigation {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .tb-megamenu {
     min-height: 50px;
   }
