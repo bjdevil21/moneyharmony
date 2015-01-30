@@ -1,75 +1,75 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\000035}}
 #navigation {
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\0000314}}
 .tb-megamenu {
   background-color: #73A28F;
   border-bottom: solid 2px #E7EBF1;
   border-top: solid 2px #E7EBF1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\0000322}}
 .tb-megamenu .nav > li > a,
 .tb-megamenu .nav > li > a:hover {
   border-right: 1px solid #73A28F;
   text-decoration: none;
   border-bottom: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\0000329}}
 .tb-megamenu .span12.mega-col-nav .mega-inner,
 .tb-megamenu .mega-inner {
   padding: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\0000336}}
 .tb-megamenu .mega-nav > li,
 .tb-megamenu .dropdown-menu .mega-nav > li {
   padding: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\0000340}}
 .tb-megamenu .mega-nav > li:first-child > a,
 .tb-megamenu .dropdown-menu .mega-nav > li:first-child > a {
   margin-top: 0;
   padding-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\0000345}}
 .tb-megamenu .mega-nav > li a,
 .tb-megamenu .dropdown-menu .mega-nav > li a {
   text-decoration: none;
   color: #004069;
   padding: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\0000355}}
 .tb-megamenu .nav li.dropdown.active > .dropdown-toggle,
 .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle {
   background-color: #E7EBF1;
   border-color: #E7EBF1;
   color: #004069;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\0000362}}
 .tb-megamenu .nav > li.dropdown.open.active > a:hover {
   border-color: #E7EBF1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\0000366}}
 .tb-megamenu .nav > li > a:focus, .tb-megamenu .nav > li > a:hover {
   color: #004069;
   border-right: 1px solid #E7EBF1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\0000372}}
 .tb-megamenu .nav li.dropdown.open > .dropdown-toggle,
 .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle, .tb-megamenu .nav > li.dropdown.open.active > a:hover, .tb-megamenu .nav > li.dropdown.open.active > a:focus {
   background-color: #eee;
   color: #004069;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\0000385}}
 .tb-megamenu .nav li.dropdown.open > .dropdown-toggle .caret,
 .tb-megamenu .nav li.dropdown.active > .dropdown-toggle .caret,
 .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle .caret,
 .tb-megamenu .nav li.dropdown > .dropdown-toggle:hover .caret {
   border-top-color: #666;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\0000391}}
 .tb-megamenu .dropdown-menu li > a:hover,
 .tb-megamenu .dropdown-menu li > a:focus,
 .tb-megamenu .dropdown-submenu:hover > a {
@@ -79,15 +79,15 @@
   color: #eee;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003102}}
 .tb-megamenu .nav > .active > a {
   color: #004069;
   text-shadow: none;
   background-color: #E7EBF1;
   background-image: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
+  -moz-box-shadow: #004069, 0, 0, 0;
+  -webkit-box-shadow: #004069, 0, 0, 0;
+  box-shadow: #004069, 0, 0, 0;
   outline: none;
   border-right-color: #E7EBF1;
 }
@@ -142,13 +142,21 @@
   .tb-megamenu .nav-collapse .nav > li > a:hover, .tb-megamenu .nav-collapse .nav > li > a:focus {
     color: #004069;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003166}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003165}}
+  .tb-megamenu .nav-collapse .nav > li.active > a {
+    color: #004069;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003167}}
   .tb-megamenu .nav-collapse .nav > li.active > a:hover, .tb-megamenu .nav-collapse .nav > li.active > a.focus {
     background-color: #E7EBF1;
     color: #004069;
   }
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003175}}
+  .tb-megamenu .nav-collapse .dropdown-menu a {
+    color: #004069;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003182}}
   #main {
     padding-top: 4px !important;
   }

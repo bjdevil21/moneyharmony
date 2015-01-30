@@ -1,4 +1,6 @@
 @import "colors";
+@import "compass/css3/box-shadow";
+
 
 #navigation { // no padding for this element
   padding: {
@@ -102,9 +104,7 @@
       text-shadow: none;
       background-color: $lightblue;
       background-image: none;
-      -webkit-box-shadow: none;
-      -moz-box-shadow: none;
-      box-shadow: none;
+      @include box-shadow($darkbluealt, 0,0,0);
       outline: none;
       border-right-color: $lightblue;
       &:hover,
@@ -163,6 +163,7 @@
           color: $darkbluealt;
         }
         & > li.active > a {
+          color: $darkbluealt;
           &:hover,
           &.focus {
             background-color: $lightblue;
@@ -170,10 +171,16 @@
           }
         }
       }
+      .dropdown-menu {
+        a {
+          color: $darkbluealt;
+        }
+      }
     }
+
   }
-  #main {
-    padding-top: $mobile-nav-height !important; // make up for no navbar
+  #main { // make up for no navbar
+    padding-top: $mobile-nav-height !important;
   }
 
 }
