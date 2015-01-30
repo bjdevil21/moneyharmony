@@ -178,7 +178,8 @@
           color: $darkbluealt;
         }
         li > a:hover,
-        li > a:focus {
+        li > a:focus,
+        li.active > a {
           background-color: $darkblue;
           background-image: linear-gradient(to bottom, #0088CC, #0077B3);
           background-repeat: repeat-x;
