@@ -125,26 +125,31 @@
 @media (max-width: 991px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003149}}
   .tb-megamenu {
-    min-height: 50px;
+    min-height: 4px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003152}}
   .tb-megamenu .btn-navbar {
     position: absolute;
     right: 1em;
-    top: -60px;
+    top: -62px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003157}}
   .tb-megamenu .nav-collapse {
     top: 0px;
     margin-top: 0px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003160}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003161}}
   .tb-megamenu .nav-collapse .nav > li > a:hover, .tb-megamenu .nav-collapse .nav > li > a:focus {
     color: #004069;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003166}}
   .tb-megamenu .nav-collapse .nav > li.active > a:hover, .tb-megamenu .nav-collapse .nav > li.active > a.focus {
     background-color: #E7EBF1;
     color: #004069;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003175}}
+  #main {
+    padding-top: 4px;
   }
 }
