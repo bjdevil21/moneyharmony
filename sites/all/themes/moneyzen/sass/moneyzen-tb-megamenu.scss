@@ -16,14 +16,31 @@
     border-bottom: none;
   }
 
+  // reformat subnav links
   .mega-nav > li,
   .dropdown-menu .mega-nav > li {
-    padding: 0px; // change
+    padding: 0px; // override
+    &:first-child {
+      & > a {
+        padding-top: 10px; // override
+      }
+    }
     & a {
       text-decoration: none; // add
       color: $darkbluealt;
       padding: 10px; // add
     }
+  }
+  .span12.mega-col-nav .mega-inner,
+  .mega-inner {
+    padding: 0px;
+  }
+
+
+  .mega-nav > li:first-child > a,
+  .dropdown-menu .mega-nav > li:first-child > a {
+    margin-top: 0;
+    padding-top: 10px;
   }
 
     // Custom CSS settings (taken from other custom styles CSS files in TB Mega Menu module

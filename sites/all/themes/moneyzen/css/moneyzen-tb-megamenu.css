@@ -13,11 +13,24 @@
 .tb-megamenu .dropdown-menu .mega-nav > li {
   padding: 0px;
 }
+.tb-megamenu .mega-nav > li:first-child > a,
+.tb-megamenu .dropdown-menu .mega-nav > li:first-child > a {
+  padding-top: 10px;
+}
 .tb-megamenu .mega-nav > li a,
 .tb-megamenu .dropdown-menu .mega-nav > li a {
   text-decoration: none;
   color: #004069;
   padding: 10px;
+}
+.tb-megamenu .span12.mega-col-nav .mega-inner,
+.tb-megamenu .mega-inner {
+  padding: 0px;
+}
+.tb-megamenu .mega-nav > li:first-child > a,
+.tb-megamenu .dropdown-menu .mega-nav > li:first-child > a {
+  margin-top: 0;
+  padding-top: 10px;
 }
 .tb-megamenu .dropdown-menu {
   border-bottom-color: #E7EBF1;
