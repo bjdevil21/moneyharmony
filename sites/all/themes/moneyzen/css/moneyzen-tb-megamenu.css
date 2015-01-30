@@ -58,7 +58,7 @@
   background-color: #33729B;
   background-image: linear-gradient(to bottom, #0088CC, #0077B3);
   background-repeat: repeat-x;
-  color: #004069;
+  color: #fff;
   text-decoration: none;
 }
 .tb-megamenu .nav > .active > a, .tb-megamenu .nav > .active > a:hover, .tb-megamenu .nav > .active > a:focus {
