@@ -10,7 +10,9 @@
   border-top: solid 2px $lightblue;
 
   .nav > li > a {
-    border-right: 1px solid $navbar;
+    border-right: none;
+    text-decoration: none;
+    border-bottom: none;
   }
 
   // Custom CSS settings (taken from other custom styles CSS files in TB Mega Menu module

@@ -4,7 +4,9 @@
   border-top: solid 2px #E7EBF1;
 }
 .tb-megamenu .nav > li > a {
-  border-right: 1px solid #73A28F;
+  border-right: none;
+  text-decoration: none;
+  border-bottom: none;
 }
 .tb-megamenu .dropdown-menu {
   border-bottom-color: #E7EBF1;
