@@ -12,6 +12,7 @@
 .tb-megamenu .mega-nav > li a,
 .tb-megamenu .dropdown-menu .mega-nav > li a {
   text-decoration: none;
+  color: #004069;
 }
 .tb-megamenu .dropdown-menu {
   border-bottom-color: #E7EBF1;
