@@ -196,6 +196,14 @@
         color: #eee;
       }
     }
+    .tb-megamenu-submenu {
+      li.level-3 > a {
+        margin-left: 40px;
+      }
+      li.level-4 > a {
+        margin-left: 60px;
+      }
+    }
   }
   #main { // make up for no navbar
     padding-top: $mobile-nav-height !important;
