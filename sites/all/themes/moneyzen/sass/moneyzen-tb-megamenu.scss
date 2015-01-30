@@ -66,10 +66,12 @@
       background-color: #eee;
       color: $darkbluealt;
     }
+    
     // down arrow aka caret
     li.dropdown.open > .dropdown-toggle,
     li.dropdown.active > .dropdown-toggle,
-    li.dropdown.open.active > .dropdown-toggle {
+    li.dropdown.open.active > .dropdown-toggle,
+    li.dropdown > .dropdown-toggle:hover {
       .caret {
         border-top-color: #666;
       }
