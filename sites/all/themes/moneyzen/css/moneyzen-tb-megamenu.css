@@ -12,26 +12,28 @@
 .tb-megamenu .nav li.dropdown.active > .dropdown-toggle,
 .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle {
   background-color: #E7EBF1;
+  color: #004069;
 }
 .tb-megamenu .nav > li > a:focus, .tb-megamenu .nav > li > a:hover {
-  color: #E7EBF1;
+  color: #004069;
+  border-right: 1px solid #E7EBF1;
 }
 .tb-megamenu .nav li.dropdown.open > .dropdown-toggle {
-  color: #E7EBF1;
+  color: #004069;
 }
 .tb-megamenu .nav li.dropdown.open > .dropdown-toggle,
 .tb-megamenu .nav li.dropdown.open.active > .dropdown-toggle {
   background-color: #fff;
-  color: #E7EBF1;
+  color: #004069;
 }
 .tb-megamenu .nav > li.dropdown.open.active > a:hover, .tb-megamenu .nav > li.dropdown.open.active > a:focus {
   background-color: #fff;
-  color: #E7EBF1;
+  color: #004069;
 }
 .tb-megamenu .dropdown-menu li > a:hover,
 .tb-megamenu .dropdown-menu li > a:focus,
 .tb-megamenu .dropdown-submenu:hover > a {
-  color: #E7EBF1;
+  color: #004069;
 }
 .tb-megamenu .nav > .active > a, .tb-megamenu .nav > .active > a:hover, .tb-megamenu .nav > .active > a:focus {
   color: #fff;
@@ -52,10 +54,10 @@
 
 @media (max-width: 979px) {
   .tb-megamenu .nav-collapse .nav > li > a:hover, .tb-megamenu .nav-collapse .nav > li > a:focus {
-    color: #E7EBF1;
+    color: #004069;
   }
   .tb-megamenu .nav-collapse .nav > li.active > a:hover, .tb-megamenu .nav-collapse .nav > li.active > a.focus {
     background-color: #E7EBF1;
-    color: #fff;
+    color: #004069;
   }
 }

@@ -23,33 +23,35 @@
     li.dropdown.active > .dropdown-toggle,
     li.dropdown.open.active > .dropdown-toggle {
       background-color: $lightblue;
+      color: $darkbluealt;
     }
 
     & > li > a:focus,
     & > li > a:hover {
-      color: $lightblue;
+      color: $darkbluealt;
+      border-right: 1px solid $lightblue;
     }
 
     li.dropdown.open > .dropdown-toggle {
-      color: $lightblue;
+      color: $darkbluealt;
     }
 
     li.dropdown.open > .dropdown-toggle,
     li.dropdown.open.active > .dropdown-toggle {
       background-color: #fff;
-      color: $lightblue;
+      color: $darkbluealt;
     }
     & > li.dropdown.open.active > a:hover,
     & > li.dropdown.open.active > a:focus {
       background-color: #fff;
-      color: $lightblue;
+      color: $darkbluealt;
     }
   }
 
   .dropdown-menu li > a:hover,
   .dropdown-menu li > a:focus,
   .dropdown-submenu:hover > a {
-    color: $lightblue;
+    color: $darkbluealt;
   }
 
   .nav {
@@ -85,13 +87,13 @@
 .tb-megamenu .nav-collapse .nav {
   & > li > a:hover,
   & > li > a:focus {
-    color: $lightblue;
+    color: $darkbluealt;
   }
   & > li.active > a {
     &:hover,
     &.focus {
       background-color: $lightblue;
-      color: #fff;
+      color: $darkbluealt;
     }
   }
 }
