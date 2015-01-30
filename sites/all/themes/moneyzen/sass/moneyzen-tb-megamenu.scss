@@ -173,7 +173,7 @@
     }
   }
   #main {
-    padding-top: $mobile-nav-height; // make up for no navbar
+    padding-top: $mobile-nav-height !important; // make up for no navbar
   }
 
 }

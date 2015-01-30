@@ -97,7 +97,7 @@ $font-monospace:   $courier;
 // Colors, etc.
 //
 
-@import "colors";
+@import "colors"; // also include more custom vars that need to be centralized but can't be here.
 
 // The amount lists, blockquotes and comments are indented.
 $indent-amount: 30px;

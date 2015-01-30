@@ -150,6 +150,6 @@
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003175}}
   #main {
-    padding-top: 4px;
+    padding-top: 4px !important;
   }
 }
