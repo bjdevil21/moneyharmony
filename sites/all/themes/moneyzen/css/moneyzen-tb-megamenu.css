@@ -77,7 +77,8 @@
   outline: none;
 }
 .tb-megamenu .nav > .active > a:hover, .tb-megamenu .nav > .active > a:focus {
-  color: #eee;
+  color: #004069;
+  background-color: #E7EBF1;
 }
 .tb-megamenu .dropdown-menu {
   border-bottom-color: #E7EBF1;

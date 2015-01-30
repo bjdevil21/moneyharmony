@@ -107,8 +107,9 @@
       box-shadow: none;
       outline: none;
       &:hover,
-      &:focus {
-        color: #eee;
+      &:focus { // necessary to override default.css :hover CSS
+        color: $darkbluealt;
+        background-color: $lightblue;
       }
     }
   }
