@@ -153,24 +153,15 @@
     background-color: #E7EBF1;
     color: #004069;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003182}}
-  .tb-megamenu .nav-collapse .nav li.dropdown.open > .dropdown-toggle .caret,
-  .tb-megamenu .nav-collapse .nav li.dropdown.active > .dropdown-toggle .caret,
-  .tb-megamenu .nav-collapse .nav li.dropdown.open.active > .dropdown-toggle .caret,
-  .tb-megamenu .nav-collapse .nav li.dropdown > .dropdown-toggle:hover .caret {
-    border-top-color: #eee;
-    border-bottom-color: #eee;
-    display: block;
-  }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003178}}
   .tb-megamenu .nav-collapse .dropdown-menu {
     background-color: #E7EBF1;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003180}}
   .tb-megamenu .nav-collapse .dropdown-menu a {
     color: #004069;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003183}}
   .tb-megamenu .nav-collapse .dropdown-menu li > a:hover,
   .tb-megamenu .nav-collapse .dropdown-menu li > a:focus,
   .tb-megamenu .nav-collapse .dropdown-menu li.active > a {
@@ -179,23 +170,23 @@
     background-repeat: repeat-x;
     color: #eee;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003192}}
   .tb-megamenu .nav-collapse .dropdown-submenu:hover > a {
     background-color: #33729B;
     background-image: linear-gradient(to bottom, #0088CC, #0077B3);
     background-repeat: repeat-x;
     color: #eee;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003200}}
   .tb-megamenu .tb-megamenu-submenu li.level-3 > a {
     margin-left: 40px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003203}}
   .tb-megamenu .tb-megamenu-submenu li.level-4 > a {
     margin-left: 60px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003208}}
   #main {
     padding-top: 4px !important;
   }
