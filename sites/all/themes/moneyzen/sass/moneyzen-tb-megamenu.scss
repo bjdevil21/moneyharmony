@@ -180,7 +180,9 @@
         li.dropdown.open.active > .dropdown-toggle,
         li.dropdown > .dropdown-toggle:hover {
           .caret {
-            border-top-color: #666;
+            border-top-color: #eee;
+            border-bottom-color: #eee;
+            display: block;
           }
         }
       }
