@@ -352,10 +352,14 @@ img {
   /* Responsive images */
   max-width: 100%;
   height: auto;
+  // Turned off IE8 support, since it's no longer supported by Compass (at least not in 1.0.3)
+  /*
   @if $legacy-support-for-ie8 {
-    /* Correct IE 8 not scaling image height when resized. */
+    // Correct IE 8 not scaling image height when resized.
     width: auto;
   }
+  */
+
 }
 
 /* Correct overflow displayed oddly in IE 9. */
