@@ -62,6 +62,10 @@ body {
       &:nth-of-type(even) {
         background: $lightblue url("/sites/all/themes/moneyzen/images/indexSepBkgd.gif") repeat-x top left;
         .col-md-4 {
+          // Get equal column height using display: table, table-row, table-cell
+          // Requires display: table on parent .row
+          float: none;
+          display: table-cell;
           &.radix-layouts-column1 {
             color: #fff;
             background-color: $darkblue;
