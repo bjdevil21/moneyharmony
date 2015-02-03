@@ -232,4 +232,20 @@ $zen-auto-include-item-base: false;
   .field-name-field-basic-image-image img[src*=olivia_mellan_300] {
     display: none !important;
   }
+  // front page
+  // refloat blocks on shrinkage;
+  .front {
+    .money-hewston-flipped .container-fluid {
+      & > .row {
+        &:nth-of-type(even) {
+          .col-md-4 {
+            // Get equal column height using display: table, table-row, table-cell
+            // Requires display: table on parent .row
+            float: left;
+            display: block;
+          }
+        }
+      }
+    }
+  }
 }
