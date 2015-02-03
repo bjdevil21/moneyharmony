@@ -241,8 +241,8 @@ $zen-auto-include-item-base: false;
           .col-md-4 {
             // Get equal column height using display: table, table-row, table-cell
             // Requires display: table on parent .row
-            float: left;
-            display: block;
+            float: left !important;
+            display: block !important;
           }
         }
       }

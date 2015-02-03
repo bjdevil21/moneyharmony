@@ -3566,7 +3566,7 @@ table {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003241}}
   .front .money-hewston-flipped .container-fluid > .row:nth-of-type(even) .col-md-4 {
-    float: left;
+    float: left !important;
     display: block;
   }
 }
