@@ -4523,6 +4523,15 @@ body #footer {
   font-style: italic;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\00003118}}
+.view-upcoming-events .views-field-title h4 {
+  margin-bottom: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/_moneyharmony\.scss}line{font-family:\00003121}}
+.view-upcoming-events .views-field-field-event-title {
+  font-style: italic;
+}
+
 /**
  * @file
  * Print styling

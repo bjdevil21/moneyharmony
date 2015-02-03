@@ -84,7 +84,7 @@ body {
     }
   }
 }
-// slider
+// View - FP Slider
 .view-fp-slider {
   .flexslider { // override flexslider module CSS
     box-shadow: none;
@@ -111,5 +111,14 @@ body {
       font-size: 0.9em;
       font-style: italic;
     }
+  }
+}
+
+.view-upcoming-events {
+  .views-field-title h4 {
+    margin-bottom: 0px;
+  }
+  .views-field-field-event-title {
+    font-style: italic;
   }
 }
