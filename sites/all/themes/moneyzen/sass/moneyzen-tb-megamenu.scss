@@ -150,6 +150,10 @@
 @media (max-width: 991px) {
 
   .tb-megamenu {
+    // button CSS alterations - desktop
+    .btn-navbar {
+      margin-right: 2em;
+    }
     .nav-collapse {
       background: none repeat scroll 0 0 $navbar;
       top: 40px;
