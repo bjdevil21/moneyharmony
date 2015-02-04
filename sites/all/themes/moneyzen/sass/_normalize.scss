@@ -138,12 +138,16 @@ a:link {
   color: $darkbluealt;
 }
 a:visited {
+  color: $darkbluealt;
 }
 a:hover,
 a:focus {
-  color: $darkblue;
+  color: #fff;
+  background-color; $navbar;
 }
 a:active {
+  color: #fff;
+  background-color; $navbar;
 }
 
 /* Address `outline` inconsistency between Chrome and other browsers. */
