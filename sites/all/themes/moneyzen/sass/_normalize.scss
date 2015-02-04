@@ -143,11 +143,11 @@ a:visited {
 a:hover,
 a:focus {
   color: #fff;
-  background-color; $navbar;
+  background-color: $navbar;
 }
 a:active {
   color: #fff;
-  background-color; $navbar;
+  background-color: $navbar;
 }
 
 /* Address `outline` inconsistency between Chrome and other browsers. */
