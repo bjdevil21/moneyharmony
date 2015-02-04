@@ -43,17 +43,25 @@ body {
 }
 
 // footer - social media icons
-#social-icons {
-  .social-icon {
+.mh-footer-text {
+  & > span {
     display: inline-block;
-    margin: 0px 1em;
-    & > a {
-      color: #fff;
-      font-size: $h3-font-size;
+    margin: 0.5em;
+  }
+  & > p {
+    margin: 0.5em;
+  }
+  #social-icons {
+    .social-icon {
+      display: inline-block;
+      margin: 0px 0.5em;
+      & > a {
+        color: #fff;
+        font-size: 2em;
+      }
     }
   }
 }
-
 
 // front page
 .front {
