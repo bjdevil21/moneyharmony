@@ -150,13 +150,6 @@
 @media (max-width: 991px) {
 
   .tb-megamenu {
-    min-height: $mobile-nav-height;
-
-    .btn-navbar {
-      position: absolute;
-      right: 1em;
-      top: -62px;
-    }
     .nav-collapse {
       background: none repeat scroll 0 0 $navbar;
       top: 0px;
@@ -204,9 +197,6 @@
         margin-left: 60px;
       }
     }
-  }
-  #main { // make up for no navbar
-    padding-top: $mobile-nav-height !important;
   }
 
 }
