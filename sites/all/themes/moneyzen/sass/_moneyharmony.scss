@@ -9,12 +9,31 @@ body {
     .top-link-home {
       vertical-align: middle;
     }
+    .block {
+      margin: $base-font-size 0px 0px 30px;
+    }
   }
 
   #main {
     background-color: #fff;
   }
   #content {
+    // hide title
+    & > h1#page-title {
+      display: none;
+    }
+    // Books page
+    div.reviews {
+      @include mh-fancy-div();
+    }
+    img.bookimage {
+      border: 3px inset $darkbluealt;
+      display: inline;
+      float: left;
+      margin: -1px 1em 1em -1px;
+      width: 100px;
+      height: 150px;
+    }
   }
   #footer {
     background: $footergray url("/sites/all/themes/moneyzen/images/indexSepBkgd.gif") repeat-x top left;
@@ -23,31 +42,18 @@ body {
   }
 }
 
-#header {
-  .block {
-    margin: $base-font-size 0px 0px 30px;
+// footer - social media icons
+#social-icons {
+  .social-icon {
+    display: inline-block;
+    margin: 0px 1em;
+    & > a {
+      color: #fff;
+      font-size: $h3-font-size;
+    }
   }
 }
 
-
-#content {
-  // hide title
-  & > h1#page-title {
-    display: none;
-  }
-  // Books page
-  div.reviews {
-    @include mh-fancy-div();
-  }
-  img.bookimage {
-    border: 3px inset $darkbluealt;
-    display: inline;
-    float: left;
-    margin: -1px 1em 1em -1px;
-    width: 100px;
-    height: 150px;
-  }
-}
 
 // front page
 .front {
