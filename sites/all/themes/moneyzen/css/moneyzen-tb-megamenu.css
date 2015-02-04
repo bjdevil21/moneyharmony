@@ -127,8 +127,8 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003153}}
   .tb-megamenu .nav-collapse {
     background: none repeat scroll 0 0 #73A28F;
-    top: 0px;
-    margin-top: 0px;
+    top: 40px;
+    margin-top: 1em;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003158}}
   .tb-megamenu .nav-collapse .nav > li > a:hover, .tb-megamenu .nav-collapse .nav > li > a:focus {
