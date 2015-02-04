@@ -37,12 +37,7 @@ body {
   }
   // Books page
   div.reviews {
-    background-color: $lightblue;
-    border-left: 1px dashed $darkbluealt;
-    border-top: 1px dashed $darkbluealt;
-    clear: left;
-    margin: 1em 1.5em 1em 0.7em;
-    padding: 15px;
+    @include mh-fancy-div();
   }
   img.bookimage {
     border: 3px inset $darkbluealt;
@@ -125,4 +120,9 @@ body {
   .views-field-field-event-title {
     font-style: italic;
   }
+}
+
+// Moneyharmony Gems
+.money-harmony-gems {
+  @include mh-fancy-div();
 }

@@ -35,3 +35,12 @@
     @include element-invisible-off;
   }
 }
+
+@mixin mh-fancy-div {
+  background-color: $lightblue;
+  border-left: 1px dashed $darkbluealt;
+  border-top: 1px dashed $darkbluealt;
+  clear: left;
+  margin: 1em 1.5em 1em 0.7em;
+  padding: 1em;
+}
