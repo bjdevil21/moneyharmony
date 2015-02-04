@@ -86,6 +86,9 @@ body {
                 list-style-type: none;
               }
             }
+            a {
+              color: #fff;
+            }
           }
           &.radix-layouts-column2 {
             background-color: $lightblue;
