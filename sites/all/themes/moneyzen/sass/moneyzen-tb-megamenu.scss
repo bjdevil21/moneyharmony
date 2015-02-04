@@ -142,7 +142,11 @@
     float: right;
     margin: 0.5em;
   }
-
+  // Adjusted background (was 14px 14px??)
+  &[class^="icon-"], &[class*=" icon-"] {
+    background-image: url("../img/glyphicons-halflings.png");
+    background-position: -336px -48px;
+  }
 }
 
 // Custom media rules
