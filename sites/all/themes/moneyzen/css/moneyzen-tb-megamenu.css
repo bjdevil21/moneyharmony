@@ -123,8 +123,8 @@
   margin: 0.5em;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/moneyzen-tb-megamenu\.scss}line{font-family:\00003146}}
-.tb-megamenu[class^="icon-"], .tb-megamenu[class*=" icon-"] {
-  background-image: url("../img/glyphicons-halflings.png");
+.tb-megamenu i[class^="icon-"], .tb-megamenu i[class*=" icon-"] {
+  background-image: url("/sites/all/modules/tb_megamenu/img/glyphicons-halflings.png");
   background-position: -336px -48px;
 }
 

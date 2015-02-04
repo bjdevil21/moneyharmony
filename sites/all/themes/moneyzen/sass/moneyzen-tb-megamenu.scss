@@ -142,9 +142,9 @@
     float: right;
     margin: 0.5em;
   }
-  // Adjusted background (was 14px 14px??)
-  &[class^="icon-"], &[class*=" icon-"] {
-    background-image: url("../img/glyphicons-halflings.png");
+  // Adjusted background for navbar button (was 14px 14px??)
+  i[class^="icon-"], i[class*=" icon-"] {
+    background-image: url("/sites/all/modules/tb_megamenu/img/glyphicons-halflings.png");
     background-position: -336px -48px;
   }
 }
