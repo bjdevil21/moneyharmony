@@ -135,11 +135,13 @@ body {
  * http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
  */
 a:link {
+  color: $darkbluealt;
 }
 a:visited {
 }
 a:hover,
 a:focus {
+  color: $darkblue;
 }
 a:active {
 }
