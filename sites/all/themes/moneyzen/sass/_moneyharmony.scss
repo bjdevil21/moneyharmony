@@ -44,12 +44,13 @@ body {
 
 // footer - social media icons
 .mh-footer-text {
+  margin-top: 1em;
   & > span {
     display: inline-block;
     margin: 0.5em;
   }
-  & > p {
-    margin: 0.5em;
+  p {
+    margin: 0.5em !important;
   }
   #social-icons {
     .social-icon {
