@@ -4600,6 +4600,7 @@ body #footer {
   clear: left;
   margin: 1em 1.5em 1em 0.7em;
   padding: 1em;
+  margin-bottom: 3em !important;
 }
 
 /**

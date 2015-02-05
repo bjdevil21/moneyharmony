@@ -143,4 +143,5 @@ body {
 // Moneyharmony Gems
 .money-harmony-gems {
   @include mh-fancy-div();
+  margin-bottom: 3em !important;
 }

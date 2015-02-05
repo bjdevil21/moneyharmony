@@ -1,0 +1,10 @@
+name = Moneyharmony Quiz Form
+description = "Moneyharmony Quiz form processing"
+package = Moneyharmony
+core = 7.x
+files[] = moneyharmony.module
+
+; Information added by Drupal.org packaging script on 2014-03-23
+version = "7.x-1.0-alpha1"
+core = "7.x"
+project = "mhquiz"
