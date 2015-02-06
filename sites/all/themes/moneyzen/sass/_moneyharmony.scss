@@ -1,4 +1,5 @@
 /* Custom SCSS rules */
+@import "colors";
 
 // colors
 body {
@@ -144,4 +145,31 @@ body {
 .money-harmony-gems {
   @include mh-fancy-div();
   margin-bottom: 3em !important;
+}
+
+// Quiz
+#mhquiz-form {
+  label.option {
+    margin-left: 0.5em;
+  }
+  .form-item.form-type-radios {
+    padding: 0.75em;
+    &:nth-child(even) {
+      background-color: $lightblue;
+    }
+  }
+  .QRMain {
+    blockquote.your-money-type {
+      border: 2px solid $darkbluealt;
+      padding: 1em;
+      background-color: $lightblue;
+      p {
+        margin: 0px;
+      }
+    }
+  }
+  #edit-submit {
+    display: block;
+    margin: 0 auto 1em auto;
+  }
 }
