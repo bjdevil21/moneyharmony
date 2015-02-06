@@ -1,0 +1,10 @@
+name = Moneyharmony Order Form
+description = "Moneyharmony Order form processing - pushes people to authorize.net"
+package = Moneyharmony
+core = 7.x
+files[] = mhform.module
+
+; Information added by Drupal.org packaging script on 2014-03-23
+version = "7.x-1.0-alpha1"
+core = "7.x"
+project = "mhform"

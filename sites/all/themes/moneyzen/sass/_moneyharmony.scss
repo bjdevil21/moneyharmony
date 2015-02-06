@@ -1,7 +1,7 @@
 /* Custom SCSS rules */
 @import "colors";
 
-// colors
+// global - colors
 body {
   background-color: $bluegray;
   #header {
@@ -171,5 +171,37 @@ body {
   #edit-submit {
     display: block;
     margin: 0 auto 1em auto;
+  }
+}
+
+// Order form
+table.orderForm {
+  tr {
+    th {
+      background-color: $darkbluealt;
+      color: #fff;
+      font-style: italic;
+      font-weight: bold;
+      margin: 0;
+      padding: 0.5em;
+      text-align: left;
+    }
+    td {
+      h3 {
+        background-color: $lightgray;
+        margin: 4px 0;
+        padding: 8px;
+      }
+      .formTitle {
+        font-weight: bold;
+      }
+      input[type=text] {
+        margin-right: 1em;
+      }
+      &[colspan] {
+        margin: 1em 0;
+      }
+      padding: 8px;
+    }
   }
 }
