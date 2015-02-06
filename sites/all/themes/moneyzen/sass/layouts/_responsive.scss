@@ -227,10 +227,9 @@ $zen-auto-include-item-base: false;
   }
 
   // Hide Olivia image at desktop size on two pages
-  .field-name-body {
-    .olivia-rsp-image {
-        display: none;
-    }
+  .field-name-body .olivia-rsp-image,
+  #flexslider-1 img[src*=olivia_mellan_300] {
+    display: none;
   }
 }
 
@@ -239,6 +238,16 @@ $zen-auto-include-item-base: false;
   .field-name-field-basic-image-image img[src*=olivia_mellan_300] {
     display: none !important;
   }
+  // Re-add image on responsive width
+  .field-name-body .olivia-rsp-image,
+  #flexslider-1 img[src*=olivia_mellan_300] {
+    display: block;
+  }
+  .field-name-body .olivia-rsp-image {
+    float: left;
+    margin: 0px 1em 1em 0px;
+  }
+
   // front page
   // refloat blocks on shrinkage;
   .front {
@@ -253,14 +262,6 @@ $zen-auto-include-item-base: false;
           }
         }
       }
-    }
-  }
-  // Re-add image on responsive width
-  .field-name-body {
-    .olivia-rsp-image {
-      display: block;
-      float: left;
-      margin: 0px 1em 1em 0px;
     }
   }
 }

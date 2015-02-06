@@ -3581,28 +3581,34 @@ table {
     background-size: 25%;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003231}}
-  .field-name-body .olivia-rsp-image {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003230}}
+  .field-name-body .olivia-rsp-image,
+  #flexslider-1 img[src*=olivia_mellan_300] {
     display: none;
   }
 }
 @media all and (max-width: 991px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003238}}
   .field-name-field-basic-image-image img[src*=olivia_mellan_300] {
     display: none !important;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003248}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003242}}
+  .field-name-body .olivia-rsp-image,
+  #flexslider-1 img[src*=olivia_mellan_300] {
+    display: block;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003246}}
+  .field-name-body .olivia-rsp-image {
+    float: left;
+    margin: 0px 1em 1em 0px;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003257}}
   .front .money-hewston-flipped .container-fluid > .row:nth-of-type(even) .col-md-4 {
     float: left !important;
     display: block !important;
-  }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/bryan\/moneyhar\/sites\/all\/themes\/moneyzen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003260}}
-  .field-name-body .olivia-rsp-image {
-    display: block;
-    float: left;
-    margin: 0px 1em 1em 0px;
   }
 }
 /* Component (SMACSS module) rules */
