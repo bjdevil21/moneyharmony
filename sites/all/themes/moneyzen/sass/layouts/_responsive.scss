@@ -225,6 +225,13 @@ $zen-auto-include-item-base: false;
     background-size: 25%;
     // settings
   }
+
+  // Hide Olivia image at desktop size on two pages
+  .field-name-body {
+    .olivia-rsp-image {
+        display: none;
+    }
+  }
 }
 
 @media all and (max-width: 991px) {
@@ -246,6 +253,14 @@ $zen-auto-include-item-base: false;
           }
         }
       }
+    }
+  }
+  // Re-add image on responsive width
+  .field-name-body {
+    .olivia-rsp-image {
+      display: block;
+      float: left;
+      margin: 0px 1em 1em 0px;
     }
   }
 }
