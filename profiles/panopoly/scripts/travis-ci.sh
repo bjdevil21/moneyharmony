@@ -43,7 +43,9 @@ system_install() {
   cd drupal
   drush make --yes profiles/panopoly/drupal-org-core.make --prepare-install
   drush make --yes profiles/panopoly/drupal-org.make --no-core --contrib-destination=profiles/panopoly
-  drush dl panopoly_demo-1.x-dev
+  if [[ "$INSTALL_PANOPOLY_DEMO_FROM_APPS" != 1 ]]; then
+    drush dl panopoly_demo-1.x-dev
+  fi
   drush dl diff
   mkdir sites/default/private
   mkdir sites/default/private/files
@@ -76,7 +78,7 @@ system_install() {
 
   # Get Chrome and ChromeDriver
   header Installing Google Chrome
-  sudo apt-get install google-chrome-stable
+  sudo apt-get install -y --force-yes google-chrome-stable
   wget http://chromedriver.storage.googleapis.com/2.9/chromedriver_linux64.zip
   unzip -a chromedriver_linux64.zip
 
@@ -96,6 +98,18 @@ system_install() {
  
   # Disable sendmail
   echo sendmail_path=`which true` >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+
+  # Enable APC
+  echo "extension=apc.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+  echo "apc.shm_size=256M" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+
+  # Increase the MySQL connection timeout on the PHP end.
+  echo "mysql.connect_timeout=3000" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+  echo "default_socket_timeout=3000" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+
+  # Increase the MySQL server timetout and packet size.
+  mysql -e "SET GLOBAL wait_timeout = 36000;"
+  mysql -e "SET GLOBAL max_allowed_packet = 33554432;"
 }
 
 # before_tests
@@ -117,10 +131,11 @@ before_tests() {
     cd drupal
   else
     cd panopoly-$UPGRADE
-    drush dl panopoly_demo-$UPGRADE_DEMO_VERSION
+    if [[ "$INSTALL_PANOPOLY_DEMO_FROM_APPS" != 1 ]]; then
+      drush dl panopoly_demo-$UPGRADE_DEMO_VERSION
+    fi
   fi
   drush si panopoly --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=admin --site-mail=admin@example.com --site-name="Panopoly" --yes
-  drush dis -y dblog
   drush vset -y file_private_path "sites/default/private/files"
   drush vset -y file_temporary_path "sites/default/private/temp"
 
@@ -130,7 +145,8 @@ before_tests() {
   # If we're an upgrade test, run the upgrade process.
   if [[ "$UPGRADE" != none ]]; then
     header Upgrading to latest version
-    cp -a ../panopoly-$UPGRADE/sites/default/* sites/default/ && drush updb --yes
+    cp -a ../panopoly-$UPGRADE/sites/default/* sites/default/
+    run_test drush updb --yes
     drush cc all
   fi
 
