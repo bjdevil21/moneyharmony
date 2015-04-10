@@ -5,13 +5,5 @@ sites/*/settings*.php
 sites/*/files
 sites/*/private
 
-# Eclipse
-.buildpath
-.settings
-.project
-
-# PHPStorm
-.idea
-
-# SASS cache
-*.sass-cach*
+# PHP Error log
+/error_log
