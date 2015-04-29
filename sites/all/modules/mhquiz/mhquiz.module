@@ -50,9 +50,8 @@ in your makeup. For each of the 20 statements in the quiz, choose the answer
 that strikes you first as being closest to your attitude. Record your answers
 on a separate sheet of paper. There is no right answer. Just be as honest with
 yourself as you can — and have fun!</p>";
-    $intro_text .= "<p>This quiz appears in the revised new edition of Money
-Harmony: A Road Map for Individuals and Couples by Olivia Mellan and Sherry
-Christie, released in October 2013.</p>";
+    $intro_text .= "<p>To find out more about all of the money personality types,
+  check out Chapter Four of <a href='/books-resources#mhrmc'>Money Harmony: A Roadmap for Individuals and Couples.</a>.</p>";
 
     $form['intro_text'] = array(
       '#markup' => t($intro_text),
@@ -472,8 +471,7 @@ END;
   of this quiz's five money types, however, is a great way to start getting to know your own money personality.</p>
 
   <p>To find out more about all of the money personality types,
-  check out Chapter Four of <a href="/books-resources#mhrmc">Money Harmony: Resolving Money Conflicts In Your Life and Relationships</a>,
-  the paperback version, also known as <em><a href="/books-resources#yms">Your Money Style</a></em>, in hardcover.</p>
+  check out Chapter Four of <a href="/books-resources#mhrmc">Money Harmony: A Roadmap for Individuals and Couples.</a>.</p>
 
 </div>
 
