@@ -1,3 +1,54 @@
+Panopoly Test 7.x-1.27, 2015-09-02
+---------------------------
+- No changes since last release.
+
+Panopoly Test 7.x-1.26, 2015-08-19
+---------------------------
+- Errors on non-interactive install with drush site-install.
+- Error on install of Panopoly-based install profile: "Column 'module' cannot be
+  null" when profile starts with "e".
+- Update tablefield to version 2.4.
+
+Panopoly Test 7.x-1.25, 2015-07-08
+---------------------------
+- Add phing-based build system to make it easier for contributors to build,
+  install and run tests.
+- Allow video_widget.feature to run under Firefox.
+
+Panopoly Test 7.x-1.24, 2015-07-02
+---------------------------
+- No changes since last release.
+
+Panopoly Test 7.x-1.23, 2015-06-17
+---------------------------
+- Commit composer.lock to increase test performance and consistancy.
+- Generate preview markup in a theme function/template.
+
+Panopoly Test 7.x-1.22, 2015-06-04
+---------------------------
+- Only show one widget preview at a time when adding content in panels.
+- Update to latest Fieldable Panels Panes (FPP).
+- Upgrade to Behat 3 / Drupal Extension 3.
+- Write Behat test for autocomplete on "Add content item" widget.
+- Editing body of node in FAPE via the IPE doesn't save changes.
+- Style settings form breaks 'managed_file' elements, puts 'Cancel' button in
+  'General Settings' fieldset, and gives PHP notices on region style settings.
+- Add Behat tests for demo content pulled in via panopoly_demo and Migrate.
+- "@Then /^I should see the "([^"]*)" button$/" notice on $region.
+- Write Behat test for hiding seldom used pane styles via Panopoly Magic.
+- Undefined events don't have definition but afterStep still called, errors out.
+- Provide a way for Views to opt out of allowing the "Display type" to be
+  changed on the pane settings.
+
+Panopoly Test 7.x-1.21, 2015-04-29
+---------------------------
+- Set human-readable names for all of Panopoly's image styles.
+- Clean up instances of deprecated panpoly_theme layouts.
+- Remove 'Radix' from the label of each of the layouts.
+- Page full of variables after changing layout.
+- Menu_rebuild removed, but not variable that tracked if had been done.
+- Update Features module to version 2.5.
+
 Panopoly Test 7.x-1.20, 2015-03-25
 ---------------------------
 - CHANGELOG.txt updates for 1.19 went wrong.

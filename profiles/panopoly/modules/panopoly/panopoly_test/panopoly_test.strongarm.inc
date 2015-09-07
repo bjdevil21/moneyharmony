@@ -253,7 +253,7 @@ function panopoly_test_strongarm() {
       'page_manager' => array(
         'status' => 1,
         'default' => 1,
-        'choice' => 0,
+        'choice' => 1,
       ),
       'default' => array(
         'status' => 1,
@@ -320,6 +320,20 @@ function panopoly_test_strongarm() {
   $strongarm->name = 'panelizer_node:panopoly_test_page:page_manager_selection';
   $strongarm->value = 'node:panopoly_test_page:default';
   $export['panelizer_node:panopoly_test_page:page_manager_selection'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'panelizer_node:panopoly_test_page_allowed_layouts_default';
+  $strongarm->value = 1;
+  $export['panelizer_node:panopoly_test_page_allowed_layouts_default'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'panelizer_node:panopoly_test_page_allowed_types_default';
+  $strongarm->value = 1;
+  $export['panelizer_node:panopoly_test_page_allowed_types_default'] = $strongarm;
 
   return $export;
 }
