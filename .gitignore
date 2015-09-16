@@ -7,3 +7,17 @@ sites/*/private
 
 # PHP Error log
 /error_log
+
+# IDE settings
+.buildpath
+.project
+.idea*
+.settings*
+
+# script - import events from XML script
+ai.bash
+# script - MoneyZen git commit script
+ff.bash
+
+# SASS cache
+sites/all/themes/moneyzen/.sass-cache

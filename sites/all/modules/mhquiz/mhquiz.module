@@ -228,7 +228,7 @@ yourself as you can — and have fun!</p>";
     $form['question15'] = array(
       '#type' => 'radios',
       //'#required' => TRUE,
-      '#title' => t("When I really want to buy something that's not in my budget:"),
+      '#title' => t("15. When I really want to buy something that's not in my budget:"),
       '#options' => array(
         'V' => t("What budget? Everything will work out all right."),
         'H' => t("I'd have to think hard before giving myself permission to spend the money."),
