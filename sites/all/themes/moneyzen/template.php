@@ -39,11 +39,11 @@ function moneyzen_preprocess_html(&$variables, $hook) {
   $link_apple_icons = array(
     'default' => array(
       'rel' => 'apple-touch-icon',
-      'href' => path_to_theme() . '/images/apple-touch-icon.png',
+      'href' => '/' . path_to_theme() . '/images/apple-touch-icon.png',
     ),
     'precomposed' => array(
       'rel' => 'apple-touch-icon-precomposed',
-      'href' => path_to_theme() . '/images/apple-touch-icon-precomposed.png',
+      'href' => '/' . path_to_theme() . '/images/apple-touch-icon-precomposed.png',
     ),
   );
   foreach ($link_apple_icons as $key => $value) {
