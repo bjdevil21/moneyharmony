@@ -205,3 +205,27 @@ table.orderForm {
     }
   }
 }
+
+// Moneyharmony Training Bios
+.training-bio {
+  clear: left;
+  .training-bio-image img {
+    border: 1em solid $biogray;
+    float: left;
+    margin: 0px 1em 1em 0px;
+  }
+  .training-bio-contact {
+    clear: left;
+    background-color: $biogray;
+    padding: 1em;
+    &:before {
+      content: "Contact Information";
+      display: block;
+      margin-bottom: 1em;
+      font-weight: bold;
+    }
+    & > li {
+      margin-left: 1em;
+    }
+  }
+}

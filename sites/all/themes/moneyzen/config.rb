@@ -8,12 +8,12 @@
 
 
 # Change this to :production when ready to deploy the CSS to the live server.
-environment = :development
-#environment = :production
+#environment = :development
+environment = :production
 
 # In development, we can turn on the FireSass-compatible debug_info.
-#firesass = false
-firesass = true
+firesass = false
+#firesass = true
 
 
 # Location of the theme's resources.
@@ -41,9 +41,10 @@ javascripts_dir = "js"
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
-#output_style = (environment == :development) ? :expanded : :compressed
-# tbmegamenu debugging
-output_style = :expanded
+output_style = (environment == :development) ? :expanded : :compressed
+
+## tbmegamenu debugging
+#output_style = :expanded
 
 # To enable relative paths to assets via compass helper functions. Since Drupal
 # themes can be installed in multiple locations, we don't need to worry about
@@ -60,4 +61,3 @@ sass_options = (environment == :development && firesass == true) ? {:debug_info 
 # Added to get font awesome working in this project
 # Details at https://github.com/FortAwesome/font-awesome-sass#b-compass-without-rails
 require 'font-awesome-sass'
-
