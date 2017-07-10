@@ -6,6 +6,7 @@
 function mh_extras_views_pre_render(&$view) {
   if ($view->name === "fp_slider") {
     // Update the slide title for ThinkAdvisor articles.
+    dpm($view, __FUNCTION__);
     $first_title_set = 0;
     foreach ($view->result as $slide) {
       if (!empty($slide->field_field_published_date)) {
