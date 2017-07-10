@@ -1,0 +1,8 @@
+name = Moneyharmony Extras
+description = "Additional features added to Moneyharmony site (in code, vs. in DB)"
+package = Moneyharmony
+version = "7.x-1.0"
+files[] = mh_extras.module
+
+core = "7.x"
+project = "mh_extras"
