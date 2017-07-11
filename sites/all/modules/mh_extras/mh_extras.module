@@ -8,7 +8,7 @@ function mh_extras_views_pre_render(&$view) {
     // Update the slide title for ThinkAdvisor articles.
     $first_title_set = 0;
     foreach ($view->result as $slide) {
-      dpm($slide->field_field_category_slider[0]['raw']);
+      dpm($slide->field_field_category_slider);
       if (!empty($slide->field_field_published_date)) {
         // Olivia's Latest from ThinkAdvisor
         if ($first_title_set === 0) {
