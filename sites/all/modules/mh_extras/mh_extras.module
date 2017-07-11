@@ -8,6 +8,7 @@ function mh_extras_views_pre_render(&$view) {
     // Update the slide title for ThinkAdvisor articles.
     $first_title_set = 0;
     dpm($view);
+    $display = ($view->current_display == 'slide_sorter') ? "#markup" : "#title" ;
     foreach ($view->result as $slide) {
       dpm($slide->field_field_category_slider);
       if (!empty($slide->field_field_published_date)) {
@@ -20,11 +21,11 @@ function mh_extras_views_pre_render(&$view) {
           $title_prefix = "";
           foreach ($slide->field_field_category_slider as $term => $value) {
             // Tagged as Special Article
-            if ($value['rendered']['#title'] === 'Special Article') {
+            if ($value['rendered'][$display] === 'Special Article') {
               $title_prefix = "ThinkAdvisor.com Special Article - ";
               break;
             }
-            if ($value['rendered']['#title'] === 'ThinkAdvisor') {
+            if ($value['rendered'][$display] === 'ThinkAdvisor') {
               // Only tagged as Think Advisor.com
               $title_prefix = "From ThinkAdvisor.com - ";
               continue;
