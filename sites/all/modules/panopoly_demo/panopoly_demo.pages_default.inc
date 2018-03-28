@@ -57,7 +57,7 @@ function panopoly_demo_default_page_manager_pages() {
     'relationships' => array(),
   );
   $display = new panels_display();
-  $display->layout = 'radix_burr_flipped';
+  $display->layout = 'burr_flipped';
   $display->layout_settings = array();
   $display->panel_settings = array(
     'style_settings' => array(
@@ -72,11 +72,10 @@ function panopoly_demo_default_page_manager_pages() {
   );
   $display->cache = array();
   $display->title = 'Homepage Demo';
-  $display->uuid = 'b7a6867e-81e2-4492-b887-5ef5422d53cf';
   $display->content = array();
   $display->panels = array();
     $pane = new stdClass();
-    $pane->pid = 'new-31a76efc-0294-4d4c-91e5-dd436aa0f9d9';
+    $pane->pid = 'new-1';
     $pane->panel = 'contentmain';
     $pane->type = 'views_panes';
     $pane->subtype = 'panopoly_demo-individual_demo_item';
@@ -104,11 +103,10 @@ function panopoly_demo_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $pane->uuid = '31a76efc-0294-4d4c-91e5-dd436aa0f9d9';
-    $display->content['new-31a76efc-0294-4d4c-91e5-dd436aa0f9d9'] = $pane;
-    $display->panels['contentmain'][0] = 'new-31a76efc-0294-4d4c-91e5-dd436aa0f9d9';
+    $display->content['new-1'] = $pane;
+    $display->panels['contentmain'][0] = 'new-1';
     $pane = new stdClass();
-    $pane->pid = 'new-15cead82-ce21-4f28-8d06-c9efb4c73e22';
+    $pane->pid = 'new-2';
     $pane->panel = 'contentmain';
     $pane->type = 'views_panes';
     $pane->subtype = 'panopoly_demo-demo_listing';
@@ -141,11 +139,10 @@ function panopoly_demo_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 1;
     $pane->locks = array();
-    $pane->uuid = '15cead82-ce21-4f28-8d06-c9efb4c73e22';
-    $display->content['new-15cead82-ce21-4f28-8d06-c9efb4c73e22'] = $pane;
-    $display->panels['contentmain'][1] = 'new-15cead82-ce21-4f28-8d06-c9efb4c73e22';
+    $display->content['new-2'] = $pane;
+    $display->panels['contentmain'][1] = 'new-2';
     $pane = new stdClass();
-    $pane->pid = 'new-34874601-6af8-4ec0-bb86-649b1966544c';
+    $pane->pid = 'new-3';
     $pane->panel = 'sidebar';
     $pane->type = 'search_box';
     $pane->subtype = 'search_box';
@@ -169,11 +166,10 @@ function panopoly_demo_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $pane->uuid = '34874601-6af8-4ec0-bb86-649b1966544c';
-    $display->content['new-34874601-6af8-4ec0-bb86-649b1966544c'] = $pane;
-    $display->panels['sidebar'][0] = 'new-34874601-6af8-4ec0-bb86-649b1966544c';
+    $display->content['new-3'] = $pane;
+    $display->panels['sidebar'][0] = 'new-3';
     $pane = new stdClass();
-    $pane->pid = 'new-b573b3a8-9a6d-4fbf-921e-89d3fed18c89';
+    $pane->pid = 'new-4';
     $pane->panel = 'sidebar';
     $pane->type = 'views_panes';
     $pane->subtype = 'panopoly_demo-demo_listing';
@@ -203,11 +199,10 @@ function panopoly_demo_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 1;
     $pane->locks = array();
-    $pane->uuid = 'b573b3a8-9a6d-4fbf-921e-89d3fed18c89';
-    $display->content['new-b573b3a8-9a6d-4fbf-921e-89d3fed18c89'] = $pane;
-    $display->panels['sidebar'][1] = 'new-b573b3a8-9a6d-4fbf-921e-89d3fed18c89';
+    $display->content['new-4'] = $pane;
+    $display->panels['sidebar'][1] = 'new-4';
     $pane = new stdClass();
-    $pane->pid = 'new-0a7200da-fe1f-4fd7-a6b9-b6cc71ca9a1c';
+    $pane->pid = 'new-5';
     $pane->panel = 'sidebar';
     $pane->type = 'views_panes';
     $pane->subtype = 'panopoly_demo-list_featured_demo_items';
@@ -237,9 +232,8 @@ function panopoly_demo_default_page_manager_pages() {
     $pane->extras = array();
     $pane->position = 2;
     $pane->locks = array();
-    $pane->uuid = '0a7200da-fe1f-4fd7-a6b9-b6cc71ca9a1c';
-    $display->content['new-0a7200da-fe1f-4fd7-a6b9-b6cc71ca9a1c'] = $pane;
-    $display->panels['sidebar'][2] = 'new-0a7200da-fe1f-4fd7-a6b9-b6cc71ca9a1c';
+    $display->content['new-5'] = $pane;
+    $display->panels['sidebar'][2] = 'new-5';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
